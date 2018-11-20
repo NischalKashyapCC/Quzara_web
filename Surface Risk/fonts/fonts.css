@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'fatmanregular';
+    src: url('fatman-webfont.woff2') format('woff2'),
+        url('fatman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fatmanlightbold';
+    src: url('fatman_light-webfont.woff2') format('woff2'),
+        url('fatman_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Tungsten-Light';
+    src: url('Tungsten-Light.eot');
+    src: url('Tungsten-Light.woff2') format('woff2'),
+        url('Tungsten-Light.woff') format('woff'),
+        url('Tungsten-Light.ttf') format('truetype'),
+        url('Tungsten-Light.svg#Tungsten-Light') format('svg'),
+        url('Tungsten-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}

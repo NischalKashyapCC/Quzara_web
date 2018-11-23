@@ -348,6 +348,43 @@ h1 {
     display: block
 }
 
+.services {
+    position: relative;
+}
+
+.services ul {
+    font-family: 'Tungsten-Light';
+    color: #ffffff;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.services ul li {
+    display: inline-block;
+}
+
+.services ul li:first-child {
+
+    left: -190px;
+    position: relative;
+    top: 30px;
+}
+
+.services ul li:nth-child(2) {
+    left: 15px;
+    position: relative;
+    top: 30px;
+}
+
+.services ul li:nth-child(3) {
+    right: -205px;
+    position: relative;
+    top: 30px;
+}
+
 @media screen and (max-width:760px) {
     #video-background {
         transform: translate(0%, 15%);

@@ -88,6 +88,7 @@ body {
     transform: translatey(58px);
 }
 
+
 .display-table {
     background: rgba(0, 0, 0, 0.4);
 }
@@ -146,6 +147,32 @@ h1 {
     font-size: 6.5rem;
     margin: 0;
     line-height: 1.1;
+}
+
+
+#mySidenav a {
+    left: -448px;
+    position: absolute;
+    transition: 0.3s;
+    padding: 15px;
+    width: 470px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    z-index: 12;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    position: fixed;
+    bottom: 7rem;
+    height: auto;
+    background-color: #F86D18;
+    line-height: 30px;
 }
 
 .para1{
@@ -355,8 +382,37 @@ h1 {
     .css-typing{
         width: auto !important;
         margin: 0;
-        
     }
-   
+    .logo{
+        display: inline-block;
+        float: left;
+        clear: both;
+        width: 144px
+    }
 }
 
+@media screen and (max-width:490px){
+    #about{
+        width: 40% !important;
+        font-size: 30px;
+        left: -20px
+    }
+    #mySidenav a:hover {
+        left: 0;
+    }
+    
+
+#mySidenav a {
+    left: -150px;
+    position: absolute;
+    transition: 0.3s;
+    padding: 6px;
+    width: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    z-index: 12;
+}
+    
+}

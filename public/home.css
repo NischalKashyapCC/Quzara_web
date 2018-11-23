@@ -2,6 +2,9 @@ body {
     font-family: 'Karla', sans-serif !important;
     font-weight: normal;
     font-size: 1rem;
+    background: #fff;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .navbar-nav li:hover>ul.dropdown-menu {
@@ -85,7 +88,13 @@ body {
     width: auto;
     height: auto;
     z-index: -100;
-    transform: translatey(58px);
+    transform: translate(0%, 0%);
+}
+
+.content-overlay {
+    position: relative;
+    top: -50px;
+    background: #fff;
 }
 
 .display-table {
@@ -102,14 +111,14 @@ h1 {
     font-size: 6.5rem;
 }
 
-.second-left{
+.second-left {
     margin-top: 5rem;
 }
 
 
 .display-table {
     display: table;
-    height: calc(100vh - 96px);
+    height: calc(100vh - 234px);
     width: 100%;
 }
 
@@ -148,32 +157,36 @@ h1 {
     line-height: 1.1;
 }
 
-.para1{
+.para1 {
     color: #1a1818cc;
     font-size: 6.5rem;
     font-family: 'Tungsten-Light';
 }
-.prevent{
+
+.prevent {
     color: #F86D18;
     font-size: 6.5rem;
     font-family: 'Tungsten-Light';
 }
-.replace{
+
+.replace {
     color: #F86D18;
     font-family: inherit;
     padding-left: 10px;
     background-color: #000000
 }
-.left-content{
+
+.left-content {
     letter-spacing: 1px;
     font-size: 20px;
     color: gray;
 }
-.second-right{
+
+.second-right {
     font-family: inherit;
     color: #F86D18;
     background-color: #000000
-}   
+}
 
 .css-typing {
     width: 676px;
@@ -327,36 +340,56 @@ h1 {
     }
 }
 
-@media screen and (max-width:760px){
-    font-size: 40px
-} 
-
-@media screen and (max-width:760px){
-    .para1{
-        font-size: 40px
-    }
-    .prevent{
-        font-size: 40px;
-    }
-    .replace{
-        font-size: 20px
-    }
-    .left-content{
-        font-size: 20px
-    }
-
-    .first-heading{
-        font-size: 30px;
-    }
-    .stresscolor{
-        font-size: 30px;
-        
-    }
-    .css-typing{
-        width: auto !important;
-        margin: 0;
-        
-    }
-   
+.hidden-sm-down {
+    display: none;
 }
 
+.hidden-md-up {
+    display: block
+}
+
+@media screen and (max-width:760px) {
+    #video-background {
+        transform: translate(0%, 15%);
+    }
+
+    .hidden-sm-down {
+        display: block;
+    }
+
+    .hidden-md-up {
+        display: none
+    }
+
+    .para1 {
+        font-size: 40px
+    }
+
+    .prevent {
+        font-size: 40px;
+    }
+
+    .replace {
+        font-size: 20px
+    }
+
+    .left-content {
+        font-size: 20px
+    }
+
+    .first-heading {
+        font-size: 47px;
+    }
+
+    .stresscolor {
+        font-size: 47px;
+
+    }
+
+    .css-typing {
+        width: auto !important;
+        margin: 0;
+
+    }
+
+}

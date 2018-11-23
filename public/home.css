@@ -37,6 +37,10 @@ body {
     margin-left: 5px !important;
 }
 
+.dropdown-item {
+    padding: .25rem 0.5rem 0.25rem 1rem !important;
+}
+
 .Contact {
     color: #000000 !important
 }
@@ -101,7 +105,7 @@ h1 {
 
 .display-table {
     display: table;
-    height: calc(100vh - 62px);
+    height: calc(100vh - 96px);
     width: 100%;
 }
 
@@ -141,7 +145,7 @@ h1 {
 }
 
 .css-typing {
-    width: 55%;
+    width: 676px;
     margin: 0 auto;
 }
 

@@ -64,7 +64,6 @@ body {
 
 .logo {
     width: 144px;
-    /* padding: 5px; */
     float: left;
 }
 
@@ -78,7 +77,7 @@ body {
 }
 
 #video-background {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -102,6 +101,11 @@ h1 {
     color: #F86D18;
     font-size: 6.5rem;
 }
+
+.second-left{
+    margin-top: 5rem;
+}
+
 
 .display-table {
     display: table;
@@ -143,6 +147,33 @@ h1 {
     margin: 0;
     line-height: 1.1;
 }
+
+.para1{
+    color: #1a1818cc;
+    font-size: 6.5rem;
+    font-family: 'Tungsten-Light';
+}
+.prevent{
+    color: #F86D18;
+    font-size: 6.5rem;
+    font-family: 'Tungsten-Light';
+}
+.replace{
+    color: #F86D18;
+    font-family: inherit;
+    padding-left: 10px;
+    background-color: #000000
+}
+.left-content{
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: gray;
+}
+.second-right{
+    font-family: inherit;
+    color: #F86D18;
+    background-color: #000000
+}   
 
 .css-typing {
     width: 676px;
@@ -295,3 +326,37 @@ h1 {
         border: none;
     }
 }
+
+@media screen and (max-width:760px){
+    font-size: 40px
+} 
+
+@media screen and (max-width:760px){
+    .para1{
+        font-size: 40px
+    }
+    .prevent{
+        font-size: 40px;
+    }
+    .replace{
+        font-size: 20px
+    }
+    .left-content{
+        font-size: 20px
+    }
+
+    .first-heading{
+        font-size: 30px;
+    }
+    .stresscolor{
+        font-size: 30px;
+        
+    }
+    .css-typing{
+        width: auto !important;
+        margin: 0;
+        
+    }
+   
+}
+

@@ -588,14 +588,17 @@ h1 {
   background-color: #ffffff;
   padding: 20px 0;
   border-radius: 5px;
+
 }
 
 .count-title {
-  font-size: 40px;
+  font-size: 56px;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
   text-align: center;
+  color: #1a1818cc;
+  font-family: 'Lato', sans-serif;
 }
 
 .count-text {
@@ -610,7 +613,7 @@ h1 {
   margin: 0 auto;
   float: none;
   display: table;
-  color: #4ad1e5;
+  color: #f86d18;
 }
 
 .box {

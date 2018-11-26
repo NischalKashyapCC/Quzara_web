@@ -7,7 +7,7 @@ body {
   min-width: 100%;
 }
 
-.navbar-nav li:hover>ul.dropdown-menu {
+.navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
 
@@ -15,12 +15,12 @@ body {
   position: relative;
 }
 
-.dropdown-submenu>.dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu>li>a:hover:after {
+.dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
@@ -349,6 +349,11 @@ h1 {
 .feature-item .sep {
   display: none;
 }
+.company-description {
+  text-align: center;
+  font-family: 'Tungsten-Light';
+  font-size: 3rem;
+}
 
 .feature-item .sep {
   border-bottom: 1px solid;
@@ -588,7 +593,6 @@ h1 {
   background-color: #ffffff;
   padding: 20px 0;
   border-radius: 5px;
-
 }
 
 .count-title {

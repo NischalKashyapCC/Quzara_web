@@ -101,3 +101,17 @@ jQuery(function($) {
     $this.countTo(options);
   }
 });
+
+// translate
+// var dict = {
+//   Home: {
+//     pt: 'Início'
+//   },
+//   'Download plugin': {
+//     pt: 'Descarregar plugin',
+//     en: 'Download plugin'
+//   }
+// };
+
+// var translator = $('body').translate({ lang: 'en', t: dict });
+// translator.lang('pt');

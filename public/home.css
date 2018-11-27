@@ -7,6 +7,16 @@ body {
   min-width: 100%;
 }
 
+.custom {
+  background-color: #ffffff;
+  color: #000000;
+  border: none !important;
+  box-shadow: none;
+}
+
+.custom :hover {
+  background-color: #ffffff;
+}
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
@@ -66,6 +76,29 @@ body {
 
 .card-content {
   background-color: #f86d18c9;
+}
+.left-heading {
+  color: whitesmoke;
+  font-family: 'Tungsten-Light';
+  font-size: 4rem;
+}
+.left-subheading {
+  color: whitesmoke;
+  font-family: 'Tungsten-Light';
+  font-size: 28px;
+}
+.left-stresscolor {
+  color: #f86d18c9;
+  font-family: 'Tungsten-Light';
+  font-size: 4rem;
+}
+.request {
+  color: #f86d18c9;
+  border-color: #f86d18c9;
+}
+.request:hover {
+  background: none;
+  border-color: #f86d18c9;
 }
 
 .c-navbar .dropdown-menu {
@@ -620,20 +653,6 @@ h1 {
   color: #f86d18;
 }
 
-.box {
-  background: #2db34a;
-  border-radius: 6px;
-  transition-property: background, border-radius;
-  transition-duration: 0.2s, 1s;
-  transition-timing-function: linear, ease-in;
-  transition-delay: 0s, 1s;
-}
-
-.box:hover {
-  background: #ff7b29;
-  border-radius: 70%;
-}
-
 /* client sider */
 /* Slider */
 
@@ -746,4 +765,26 @@ h1 {
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+.company-contact {
+  text-align: center;
+  font-family: 'Tungsten-Light';
+  font-size: 2rem;
+}
+.foot {
+  border: none !important;
+}
+.foot-font {
+  color: #ffffff;
+}
+.line {
+  background-color: #ffffff;
+}
+.card {
+  border-radius: 0px !important;
+  background-color: rgba(33, 35, 35, 0.9);
+}
+.custom-btn-link {
+  background-color: rgba(33, 35, 35, 0.9);
 }

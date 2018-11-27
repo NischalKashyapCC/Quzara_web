@@ -147,6 +147,20 @@ body {
   color: orange !important;
 }
 
+.dark-bg {
+  background: rgba(33, 35, 35, 0.8);
+  color: #ffffff;
+  border-bottom: 8px solid #f86d18;
+}
+
+.vertical-text {
+  position: absolute;
+  transform: rotateZ(-90deg);
+  right: -33px;
+  top: 45px;
+  padding: 0 !important;
+}
+
 #video-background {
   position: absolute;
   right: 0;
@@ -229,10 +243,10 @@ h1 {
 }
 
 #mySidenav a {
-  left: -448px;
+  left: -442px;
   position: absolute;
   transition: 0.3s;
-  padding: 15px;
+
   width: 470px;
   text-decoration: none;
   font-size: 20px;
@@ -240,6 +254,11 @@ h1 {
   border-radius: 0 5px 5px 0;
   z-index: 12;
 }
+
+#mySidenav a>div {
+  padding: 15px;
+}
+
 
 #mySidenav a:hover {
   left: 0;
@@ -396,6 +415,7 @@ h1 {
 .description {
   font-size: 14px;
   padding-right: 8px;
+  opacity: 0.6;
 }
 
 .feature-item .sep {
@@ -424,6 +444,10 @@ h1 {
   font-size: 16px;
   font-family: inherit;
   font-weight: bold;
+}
+
+.border-btm {
+  border-bottom: 8px solid #f86d18;
 }
 
 @media (min-width: 992px) {
@@ -793,9 +817,10 @@ h1 {
   font-size: 2rem;
 }
 
+/* 
 .foot {
   border: none !important;
-}
+} */
 
 .foot-font {
   color: #ffffff;
@@ -808,6 +833,7 @@ h1 {
 .card {
   border-radius: 0px !important;
   background-color: rgba(33, 35, 35, 0.9);
+  border-top: 8px solid #f86d18;
 }
 
 .custom-btn-link {

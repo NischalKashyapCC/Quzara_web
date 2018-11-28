@@ -115,3 +115,8 @@ jQuery(function($) {
 
 // var translator = $('body').translate({ lang: 'en', t: dict });
 // translator.lang('pt');
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particle.json', function() {
+  console.log('callback - particles.js config loaded');
+});

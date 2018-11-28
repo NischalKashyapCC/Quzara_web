@@ -858,6 +858,9 @@ h1 {
   margin: 11px 4px;
   border-radius: 47%;
 }
+.fa.social:hover {
+  color: #f86d18;
+}
 
 .fa-logo:hover {
   opacity: 0.7;

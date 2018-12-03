@@ -1,5 +1,5 @@
 body {
-  font-family: "Karla", sans-serif !important;
+  font-family: 'Karla', sans-serif !important;
   font-weight: normal;
   font-size: 1rem;
   background: #fff;
@@ -21,6 +21,10 @@ body {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
+.skew {
+  transform-origin: bottom left;
+  transform: skew(+15deg, 0deg);
+}
 
 .dropdown-submenu {
   position: relative;
@@ -39,11 +43,29 @@ body {
 .nav-link.dropdown-toggle {
   color: #000000 !important;
 }
+.collapse.navbar-collapse.col-6 {
+  background-color: #ff8200;
+  transform-origin: top right;
+  transform: skew(-16deg, 0deg);
+}
+.collapse.navbar-collapse.col-6.nav-2 {
+  background-color: #d3d3d3;
+  transform-origin: bottom left;
+  transform: skew(-16deg, 0deg);
+}
+.skew-2 {
+  transform-origin: bottom left;
+  transform: skew(+15deg, 0deg);
+}
+.space {
+  justify-content: space-around;
+}
 
 .nav-link {
   font-size: 14px;
   font-weight: bold;
   color: #000000cc !important;
+  padding-top: 15px;
 }
 
 .chev-down {
@@ -67,33 +89,21 @@ body {
   box-shadow: none !important;
 }
 
-.card-title {
-  text-align: center;
-}
-
-.card-text {
-  text-align: center;
-}
-
-.card-content {
-  background-color: #f86d18c9;
-}
-
 .left-heading {
   color: whitesmoke;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 4rem;
 }
 
 .left-subheading {
   color: whitesmoke;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 28px;
 }
 
 .left-stresscolor {
   color: #f86d18c9;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 4rem;
 }
 
@@ -128,6 +138,11 @@ body {
 }
 .info {
   padding-top: 20px;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  color: #818181;
 }
 .learn {
   background-color: #ffa809;
@@ -137,15 +152,17 @@ body {
 .logo {
   width: 189px;
   float: left;
+  padding: 10px;
 }
 .last-foot {
   background-color: #242424;
 }
 .copyright {
-  color: #ffffff;
-  font-family: "Karla", sans-serif !important;
-  font-weight: normal;
-  font-size: 1rem;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  color: #818181;
 }
 
 .size {
@@ -154,7 +171,8 @@ body {
 }
 
 .c-navbar .nav-item .nav-link:hover {
-  color: orange !important;
+  color: black !important;
+  cursor: pointer;
 }
 
 .dark-bg {
@@ -235,7 +253,7 @@ h1 {
   color: rgba(255, 255, 255, 1);
   letter-spacing: 5px;
   cursor: pointer;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   visibility: inherit;
   transition: none 0s ease 0s;
   text-align: center;
@@ -254,7 +272,7 @@ h1 {
 
 #mySidenav a {
   left: -442px;
-  position: absolute;
+  position: fixed;
   transition: 0.3s;
 
   width: 470px;
@@ -284,13 +302,13 @@ h1 {
 .para1 {
   color: #1a1818cc;
   font-size: 6.5rem;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
 }
 
 .prevent {
   color: #f86d18;
   font-size: 6.5rem;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
 }
 
 .replace {
@@ -400,9 +418,15 @@ h1 {
   background-color: #f86d18;
 }
 
+.card-fa {
+  font-size: 4rem;
+  color: #ff8200;
+  text-align: center;
+}
 .fa {
   display: inline-block;
   font-family: FontAwesome;
+
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -410,11 +434,11 @@ h1 {
 }
 
 .fa-jsfiddle:before {
-  content: "\f1cc";
+  content: '\f1cc';
 }
 
 .fa-briefcase:before {
-  content: "\f0b1";
+  content: '\f0b1';
 }
 
 .feature-item h4 {
@@ -433,7 +457,7 @@ h1 {
 
 .company-description {
   text-align: center;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 3rem;
 }
 
@@ -569,7 +593,7 @@ h1 {
 }
 
 .services ul {
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   color: #ffffff;
   font-size: 28px;
   position: absolute;
@@ -688,7 +712,7 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   color: #1a1818cc;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .count-text {
@@ -769,7 +793,7 @@ h1 {
 .slick-track:before,
 .slick-track:after {
   display: table;
-  content: "";
+  content: '';
 }
 
 .slick-track:after {
@@ -787,7 +811,7 @@ h1 {
   min-height: 1px;
 }
 
-[dir="rtl"] .slick-slide {
+[dir='rtl'] .slick-slide {
   float: right;
 }
 
@@ -823,28 +847,27 @@ h1 {
 
 .company-contact {
   text-align: center;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 2rem;
+  color: white;
 }
 
-.foot-font {
-  color: #ffffff;
-}
 .fs {
   font-size: 20px;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+  line-height: 26px;
+  font-weight: 400;
+  color: #818181;
 }
 .line {
   background-color: #ffffff;
 }
 
-.card {
-  border-radius: 0px !important;
-  background-color: transparent;
-  border-top: 8px solid #f86d18;
-}
-
 .custom-btn-link {
   background-color: rgba(33, 35, 35, 0.9);
+}
+.fa.fa-jsfiddle.icon-custom-style {
+  font-size: 4rem;
 }
 
 /* icons */
@@ -891,4 +914,7 @@ h1 {
   height: 73%;
   width: 100%;
   background: rgba(33, 35, 35, 0.9);
+}
+.particle-card {
+  background-color: transparent;
 }

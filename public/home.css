@@ -436,6 +436,9 @@ h1 {
   color: #ff8200;
   text-align: center;
 }
+.main-card {
+  height: 100%;
+}
 .fa {
   display: inline-block;
   font-family: FontAwesome;

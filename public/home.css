@@ -40,6 +40,10 @@ body {
   transform: rotate(-90deg);
 }
 
+.timer.count-title.count-number {
+  font-size: 35px;
+}
+
 .nav-link.dropdown-toggle {
   color: #000000 !important;
 }
@@ -142,7 +146,7 @@ body {
   line-height: 26px;
   font-weight: 400;
   font-style: normal;
-  color: #818181;
+  color: #000000;
 }
 .learn {
   background-color: #ffa809;
@@ -155,14 +159,15 @@ body {
   padding: 10px;
 }
 .last-foot {
-  background-color: #242424;
+  /* background-color: #242424; */
+  background-color: #b61924;
 }
 .copyright {
   font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
   line-height: 26px;
   font-weight: 400;
   font-style: normal;
-  color: #818181;
+  color: #000000;
 }
 
 .size {
@@ -716,7 +721,7 @@ h1 {
 }
 
 .count-text {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
@@ -857,7 +862,7 @@ h1 {
   font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
   line-height: 26px;
   font-weight: 400;
-  color: #818181;
+  color: #000000;
 }
 .line {
   background-color: #ffffff;
@@ -913,7 +918,8 @@ h1 {
   position: absolute;
   height: 73%;
   width: 100%;
-  background: rgba(33, 35, 35, 0.9);
+  /* background: rgba(33, 35, 35, 0.9); */
+  background: #b61924 !important;
 }
 .particle-card {
   background-color: transparent;

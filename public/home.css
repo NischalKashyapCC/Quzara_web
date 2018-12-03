@@ -144,9 +144,17 @@ body {
   padding-top: 20px;
   font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
   line-height: 26px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #000000;
+}
+.country-name {
+  color: #000000c7 !important;
+  font-weight: bold;
+}
+.number {
+  color: red;
 }
 .learn {
   background-color: #ffa809;
@@ -719,7 +727,15 @@ h1 {
   color: #1a1818cc;
   font-family: 'Lato', sans-serif;
 }
-
+.count-country-title {
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #e63131;
+  font-family: 'Lato', sans-serif;
+}
 .count-text {
   font-size: 18px;
   font-weight: normal;
@@ -923,4 +939,9 @@ h1 {
 }
 .particle-card {
   background-color: transparent;
+}
+.img-pos {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
 }

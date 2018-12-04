@@ -5,6 +5,8 @@ body {
   background: #fff;
   min-height: 100%;
   min-width: 100%;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
 }
 
 .custom {
@@ -41,7 +43,9 @@ body {
 }
 
 .timer.count-title.count-number {
-  font-size: 35px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
 }
 
 .nav-link.dropdown-toggle {
@@ -152,6 +156,7 @@ body {
 .country-name {
   color: #000000c7 !important;
   font-weight: bold;
+  font-size: 20px !important;
 }
 .number {
   color: red;
@@ -159,6 +164,9 @@ body {
 .learn {
   background-color: #ffa809;
   text-align: center;
+}
+.seconds {
+  font-size: 20px !important;
 }
 
 .logo {
@@ -432,12 +440,78 @@ h1 {
 }
 
 .card-fa {
-  font-size: 4rem;
-  color: #ff8200;
+  font-size: 3rem;
+  color: #f86d18;
   text-align: center;
+  background: #fff;
+  /* padding: 32px 20px; */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px !important;
+  transition: 0.2s ease-in;
+  cursor: pointer;
 }
+.optiv-card .card-body {
+  color: #fff;
+}
+.card-fa:hover {
+  border-radius: 4px;
+  /* -webkit-transition: border-radius 1s linear;
+  -moz-transition: border-radius 1s linear;
+  -o-transition: border-radius 1s linear;
+  -ms-ransition: border-radius 1s linear;
+  transition: border-radius 1s linear; */
+  /* color: #ff8200; */
+  transition: 0.2s ease-out;
+}
+
 .main-card {
   height: 100%;
+  border: 0 !important;
+}
+.submain-card-f {
+  height: 100%;
+  background: #ff8200;
+  cursor: pointer;
+  border: 0;
+}
+.submain-card-e {
+  height: 100%;
+  background: #ff9837;
+  cursor: pointer;
+  border: 0;
+}
+.submain-card-d {
+  height: 100%;
+  background: #f19d44;
+  cursor: pointer;
+  border: 0;
+}
+.submain-card-c {
+  height: 100%;
+  background: #f7ba77;
+  cursor: pointer;
+  border: 0;
+}
+.submain-card-b {
+  height: 100%;
+  background: #f8bb79;
+  cursor: pointer;
+  border: 0;
+}
+.submain-card-a {
+  height: 100%;
+  background: #f9c496;
+  cursor: pointer;
+  border: 0;
+}
+
+.optiv-card {
+  border: none !important;
+}
+.card-title {
+  font-weight: bold;
 }
 .fa {
   display: inline-block;
@@ -504,6 +578,12 @@ h1 {
     width: 33.33333333%;
     float: left;
   }
+  /* .col-4 {
+    width: 33.3%;
+  }
+  .social {
+    text-align: center;
+  } */
 }
 
 @-webkit-keyframes type {
@@ -717,12 +797,12 @@ h1 {
 
 .counter {
   background-color: #ffffff;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  height: 60%;
   border-radius: 5px;
 }
 
 .count-title {
-  font-size: 56px;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
@@ -730,8 +810,9 @@ h1 {
   color: #1a1818cc;
   font-family: 'Lato', sans-serif;
 }
+
 .count-country-title {
-  font-size: 36px;
+  font-size: 24px !important;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
@@ -944,7 +1025,8 @@ h1 {
   background-color: transparent;
 }
 .img-pos {
-  max-width: 100%;
+  max-width: 60%;
   max-height: 100%;
   display: block;
+  margin: 0px auto;
 }

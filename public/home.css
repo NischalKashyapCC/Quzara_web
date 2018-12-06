@@ -1020,7 +1020,7 @@ h1 {
 
 #particles-js {
   position: absolute;
-  height: 60% !important;
+  height: 315px !important;
   width: 100%;
   background: rgba(33, 35, 35, 0.9) !important;
 }
@@ -1041,4 +1041,20 @@ h1 {
 }
 .before-footer {
   background: #f7f7f7;
+}
+@media (max-width: 576px) {
+  #particles-js {
+    position: absolute;
+    height: 505px !important;
+    width: 100%;
+    background: rgba(33, 35, 35, 0.9) !important;
+  }
+  .company-contact {
+    text-align: center;
+    font-family: 'Tungsten-Light';
+    font-size: 2rem;
+    color: white;
+    z-index: 1;
+    position: relative;
+  }
 }

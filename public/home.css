@@ -30,6 +30,9 @@ body {
 .menu {
   height: 4.5rem;
 }
+.center {
+  background: #242424 !important;
+}
 
 .dropdown-submenu {
   position: relative;
@@ -49,6 +52,7 @@ body {
   font-size: 30px;
   display: inline-block;
   text-align: center;
+  color: #d7d7d7;
 }
 
 .nav-link.dropdown-toggle {
@@ -102,13 +106,13 @@ body {
 .left-heading {
   color: whitesmoke;
   font-family: 'Tungsten-Light';
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .left-subheading {
   color: whitesmoke;
   font-family: 'Tungsten-Light';
-  font-size: 35px;
+  font-size: 2rem;
   text-align: center;
   margin: 0px auto;
 }
@@ -171,6 +175,7 @@ body {
 }
 .seconds {
   font-size: 20px !important;
+  color: #d7d7d7;
 }
 
 .logo {
@@ -444,15 +449,15 @@ h1 {
 }
 
 .card-fa {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #f86d18;
   text-align: center;
   background: #fff;
   /* padding: 32px 20px; */
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  line-height: 100px !important;
+  width: 80px;
+  height: 80px;
+  line-height: 86px !important;
   transition: 0.2s ease-in;
   cursor: pointer;
 }
@@ -476,46 +481,50 @@ h1 {
 }
 .submain-card-f {
   height: 100%;
-  background: #ff8200;
+  background: #232323;
   cursor: pointer;
   border: 0;
 }
 .submain-card-e {
   height: 100%;
-  background: #ff8200;
+  background: #232323;
   cursor: pointer;
   border: 0;
 }
 .submain-card-d {
   height: 100%;
-  background: #ff8200;
+  background: #232323;
   cursor: pointer;
   border: 0;
 }
 .submain-card-c {
   height: 100%;
-  background: #ff8200;
+  background: #232323;
   cursor: pointer;
   border: 0;
 }
 .submain-card-b {
   height: 100%;
-  background: #ff8200;
+  background: #232323;
   cursor: pointer;
   border: 0;
 }
 .submain-card-a {
   height: 100%;
-  background: #ff8200;
+  background: #232323;
   cursor: pointer;
   border: 0;
 }
-
+.card-text {
+  color: #a79e9e;
+  font-size: 0.95rem;
+}
 .optiv-card {
   border: none !important;
 }
 .card-title {
   font-weight: bold;
+  font-size: 1rem !important;
 }
 .fa {
   display: inline-block;
@@ -548,7 +557,10 @@ h1 {
 .feature-item .sep {
   display: none;
 }
-
+.dollar {
+  color: #d7d7d7;
+  font-size: 15px;
+}
 .company-description {
   text-align: center;
   font-family: 'Tungsten-Light';
@@ -574,7 +586,7 @@ h1 {
 }
 
 .border-btm {
-  border-bottom: 8px solid #f86d18;
+  border-bottom: 3px solid #f86d18;
 }
 
 @media (min-width: 992px) {
@@ -800,7 +812,6 @@ h1 {
 }
 
 .counter {
-  background-color: #ffffff;
   /* padding: 20px 0; */
   height: 60%;
   border-radius: 5px;
@@ -830,13 +841,14 @@ h1 {
   margin-top: 10px;
   margin-bottom: 0;
   text-align: center;
+  color: #a79e9e;
 }
 
 .fa-2x {
   margin: 0 auto;
   float: none;
   display: table;
-  color: #f86d18;
+  color: #d39e00;
 }
 
 /* client sider */
@@ -1057,4 +1069,16 @@ h1 {
     z-index: 1;
     position: relative;
   }
+}
+@media (min-width: 360px) {
+  .left-heading {
+    font-size: 2rem;
+  }
+  .left-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+.company-logo {
+  background: #f7f7f7;
 }

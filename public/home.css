@@ -182,6 +182,7 @@ body {
   width: 189px;
   float: left;
   padding: 10px;
+  padding-bottom: 0;
 }
 .last-foot {
   background-color: #242424;

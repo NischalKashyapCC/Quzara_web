@@ -1081,10 +1081,10 @@ h1 {
 }
 @media (min-width: 1141px) {
   .left-heading {
-    font-size: 8rem;
+    font-size: 6rem;
   }
   .left-subheading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 

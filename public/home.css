@@ -58,7 +58,7 @@ body {
 .nav-link.dropdown-toggle {
   color: #000000 !important;
 }
-.collapse.navbar-collapse.col-6 {
+/* .collapse.navbar-collapse.col-6 {
   transform-origin: top right;
   transform: skew(-16deg, 0deg);
 }
@@ -70,13 +70,10 @@ body {
 .skew-2 {
   transform-origin: bottom left;
   transform: skew(+15deg, 0deg);
-}
-.space {
-  justify-content: space-around;
-}
+} */
 
 .nav-link {
-  font-size: 14px;
+  font-size: 0.7rem;
   font-weight: bold;
   color: #000000cc !important;
   padding-top: 15px;
@@ -107,12 +104,15 @@ body {
   color: whitesmoke;
   font-family: "Tungsten-Light";
   font-size: 6rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .left-subheading {
   color: whitesmoke;
   font-family: "Tungsten-Light";
-  font-size: 2rem;
+  font-size: 1.7rem;
+  font-weight: bold;
   text-align: center;
   margin: 0px auto;
 }
@@ -197,7 +197,7 @@ body {
 }
 
 .size {
-  font-size: 15px;
+  font-size: 0.7rem;
   color: #1a1818cc;
 }
 
@@ -273,7 +273,7 @@ h1 {
 }
 
 .threat-info {
-  padding: 1em 0;
+  padding: 4em 0;
 }
 
 .main-content {
@@ -308,7 +308,7 @@ h1 {
 
   width: 470px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   border-radius: 0 5px 5px 0;
   z-index: 12;
@@ -566,6 +566,7 @@ h1 {
   text-align: center;
   font-family: "Tungsten-Light";
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .feature-item .sep {
@@ -600,6 +601,7 @@ h1 {
   }
   .social {
     text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -837,7 +839,7 @@ h1 {
   font-family: "Lato", sans-serif;
 }
 .count-text {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
@@ -849,7 +851,7 @@ h1 {
   margin: 0 auto;
   float: none;
   display: table;
-  color: #d39e00;
+  color: #f86d18c9;
 }
 
 /* client sider */
@@ -1048,9 +1050,13 @@ h1 {
 }
 .feed-text {
   font-size: 0.9rem;
+  /* border-right: 0.5px solid #f86d18c9; */
+}
+.no-border {
+  border: 0 !important;
 }
 .social {
-  font-size: 1.3rem;
+  font-size: 1.75rem;
 }
 .before-footer {
   background: #f7f7f7;
@@ -1088,6 +1094,83 @@ h1 {
   }
 }
 
-.company-logo {
+/* .company-logo {
   background: #f7f7f7;
+} */
+@media (max-width: 1336px) {
+  .left-heading {
+    font-size: 3rem;
+  }
+  .left-subheading {
+    font-size: 1.7rem;
+  }
+  .cybersecurity {
+    font-weight: bold;
+  }
+  .color-font {
+    color: #f86d18c9;
+  }
+  .network-centric {
+    font-weight: bold;
+    color: #d7d7d7;
+    font-size: 1.75rem;
+  }
+}
+.network-centric {
+  color: #d7d7d7;
+}
+@media (max-width: 768px) {
+  .space {
+    float: right;
+  }
+  .network-centric {
+    font-size: 1.3rem;
+  }
+  .timer.count-title.count-number {
+    font-size: 1rem;
+  }
+  .count-text {
+    font-size: 0.8rem;
+  }
+  .fa-2x {
+    font-size: 2.5rem;
+  }
+  .card-title {
+    font-size: 0.8rem !important;
+  }
+  .card-text {
+    font-size: 0.5rem;
+  }
+  .feed-text {
+    font-size: 0.6rem !important;
+  }
+  .info {
+    font-size: 0.78rem !important;
+  }
+  .timer.count-title.count-number {
+    font-size: 1.5rem !important;
+  }
+}
+@media (max-width: 425px) {
+  .left-heading {
+    font-size: 1.5rem;
+  }
+  .left-subheading {
+    font-size: 1.3rem;
+  }
+  .space {
+    float: right;
+  }
+  .network-centric {
+    font-size: 1.3rem;
+  }
+  .timer.count-title.count-number {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1366px) {
+  .top-nav {
+    width: 1366px;
+    margin: 0px auto !important;
+  }
 }

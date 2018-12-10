@@ -1,0 +1,61 @@
+[debug] [2018-12-10T15:00:13.495Z] ----------------------------------------------------------------------
+[debug] [2018-12-10T15:00:13.498Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-12-10T15:00:13.498Z] CLI Version:   6.1.1
+[debug] [2018-12-10T15:00:13.498Z] Platform:      darwin
+[debug] [2018-12-10T15:00:13.498Z] Node Version:  v8.6.0
+[debug] [2018-12-10T15:00:13.499Z] Time:          Mon Dec 10 2018 20:30:13 GMT+0530 (IST)
+[debug] [2018-12-10T15:00:13.499Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-10T15:00:13.543Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-10T15:00:13.544Z] > authorizing via signed-in user
+[debug] [2018-12-10T15:00:13.544Z] [iam] checking project quzarahome for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-10T15:00:13.546Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/quzarahome:testIamPermissions  
+
+[debug] [2018-12-10T15:00:13.921Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-10T15:00:13.923Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/quzarahome  
+ 
+[debug] [2018-12-10T15:00:14.329Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'quzarahome'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-12-10T15:00:14.335Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/quzarahome/versions  
+
+[debug] [2018-12-10T15:00:16.373Z] <<< HTTP RESPONSE 200
+[info] i  hosting[quzarahome]: beginning deploy...
+[info] i  hosting[quzarahome]: found 59 files in public
+[debug] [2018-12-10T15:00:16.409Z] [hosting] hash cache [cHVibGlj] load error: lines is not defined
+[debug] [2018-12-10T15:00:17.473Z] [hosting] hash cache [cHVibGlj] stored for 59 files
+[debug] [2018-12-10T15:00:17.473Z] [hosting][hash queue][FINAL]
+[debug] [2018-12-10T15:00:17.473Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/quzarahome/versions/ffb303749b6f4d8f:populateFiles  
+ <request body omitted>
+[debug] [2018-12-10T15:00:19.753Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-10T15:00:19.757Z] [hosting][populate queue][FINAL]
+[debug] [2018-12-10T15:00:19.757Z] [hosting] uploads queued: 1
+[debug] [2018-12-10T15:00:23.439Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[quzarahome]: file upload complete
+[debug] [2018-12-10T15:00:23.440Z] [hosting] deploy completed after 7066ms
+[debug] [2018-12-10T15:00:23.584Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "quzarahome"
+    },
+    "site": "quzarahome",
+    "version": "sites/quzarahome/versions/ffb303749b6f4d8f"
+  }
+]
+[info] i  hosting[quzarahome]: finalizing version...
+[debug] [2018-12-10T15:00:23.585Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/quzarahome/versions/ffb303749b6f4d8f?updateMask=status  
+

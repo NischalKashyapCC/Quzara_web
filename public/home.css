@@ -1,5 +1,5 @@
 body {
-  font-family: "Karla", sans-serif !important;
+  font-family: 'Karla', sans-serif !important;
   font-weight: normal;
   font-size: 1rem;
   background: #fff;
@@ -58,7 +58,7 @@ body {
 .nav-link.dropdown-toggle {
   color: #000000 !important;
 }
-.collapse.navbar-collapse.col-6 {
+/* .collapse.navbar-collapse.col-6 {
   transform-origin: top right;
   transform: skew(-16deg, 0deg);
 }
@@ -70,13 +70,13 @@ body {
 .skew-2 {
   transform-origin: bottom left;
   transform: skew(+15deg, 0deg);
-}
+} */
 .space {
   justify-content: space-around;
 }
 
 .nav-link {
-  font-size: 14px;
+  font-size: 0.7rem;
   font-weight: bold;
   color: #000000cc !important;
   padding-top: 15px;
@@ -105,21 +105,24 @@ body {
 
 .left-heading {
   color: whitesmoke;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 6rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .left-subheading {
   color: whitesmoke;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 2rem;
+  font-weight: bold;
   text-align: center;
   margin: 0px auto;
 }
 
 .left-stresscolor {
   color: #f86d18c9;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 5rem;
 }
 
@@ -154,7 +157,7 @@ body {
 }
 .info {
   padding-top: 20px;
-  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
   line-height: 26px;
   font-size: 0.9rem !important;
   font-weight: 400;
@@ -188,7 +191,7 @@ body {
   background-color: #242424;
 }
 .copyright {
-  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
   line-height: 26px;
   font-weight: 400;
   font-style: normal;
@@ -273,7 +276,7 @@ h1 {
 }
 
 .threat-info {
-  padding: 1em 0;
+  padding: 4em 0;
 }
 
 .main-content {
@@ -284,7 +287,7 @@ h1 {
   color: rgba(255, 255, 255, 1);
   letter-spacing: 5px;
   cursor: pointer;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   visibility: inherit;
   transition: none 0s ease 0s;
   text-align: center;
@@ -333,13 +336,13 @@ h1 {
 .para1 {
   color: #1a1818cc;
   font-size: 6.5rem;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
 }
 
 .prevent {
   color: #f86d18;
   font-size: 6.5rem;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
 }
 
 .replace {
@@ -538,11 +541,11 @@ h1 {
 }
 
 .fa-jsfiddle:before {
-  content: "\f1cc";
+  content: '\f1cc';
 }
 
 .fa-briefcase:before {
-  content: "\f0b1";
+  content: '\f0b1';
 }
 
 .feature-item h4 {
@@ -564,8 +567,9 @@ h1 {
 }
 .company-description {
   text-align: center;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .feature-item .sep {
@@ -600,6 +604,7 @@ h1 {
   }
   .social {
     text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -706,7 +711,7 @@ h1 {
 }
 
 .services ul {
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   color: #ffffff;
   font-size: 28px;
   position: absolute;
@@ -824,7 +829,7 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   color: #1a1818cc;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .count-country-title {
@@ -834,10 +839,10 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   color: #e63131;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .count-text {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
@@ -849,7 +854,7 @@ h1 {
   margin: 0 auto;
   float: none;
   display: table;
-  color: #d39e00;
+  color: #f86d18c9;
 }
 
 /* client sider */
@@ -915,7 +920,7 @@ h1 {
 .slick-track:before,
 .slick-track:after {
   display: table;
-  content: "";
+  content: '';
 }
 
 .slick-track:after {
@@ -933,7 +938,7 @@ h1 {
   min-height: 1px;
 }
 
-[dir="rtl"] .slick-slide {
+[dir='rtl'] .slick-slide {
   float: right;
 }
 
@@ -969,14 +974,14 @@ h1 {
 
 .company-contact {
   text-align: center;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 2rem;
   color: white;
 }
 
 .fs {
   font-size: 1.2rem;
-  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
   line-height: 26px;
   font-weight: 400;
   color: #ffffff;
@@ -1048,9 +1053,13 @@ h1 {
 }
 .feed-text {
   font-size: 0.9rem;
+  /* border-right: 0.5px solid #f86d18c9; */
+}
+.no-border {
+  border: 0 !important;
 }
 .social {
-  font-size: 1.3rem;
+  font-size: 1.75rem;
 }
 .before-footer {
   background: #f7f7f7;
@@ -1064,7 +1073,7 @@ h1 {
   }
   .company-contact {
     text-align: center;
-    font-family: "Tungsten-Light";
+    font-family: 'Tungsten-Light';
     font-size: 2rem;
     color: white;
     z-index: 1;
@@ -1088,6 +1097,26 @@ h1 {
   }
 }
 
-.company-logo {
+/* .company-logo {
   background: #f7f7f7;
+} */
+@media (max-width: 1336px) {
+  .left-heading {
+    font-size: 3rem;
+  }
+  .left-subheading {
+    font-size: 2rem;
+  }
+}
+
+.cybersecurity {
+  font-weight: bold;
+}
+.color-font {
+  color: #f86d18c9;
+}
+.network-centric {
+  font-weight: bold;
+  color: #d7d7d7;
+  font-size: 1.75rem;
 }

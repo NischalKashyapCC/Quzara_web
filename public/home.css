@@ -71,9 +71,6 @@ body {
   transform-origin: bottom left;
   transform: skew(+15deg, 0deg);
 } */
-.space {
-  justify-content: space-around;
-}
 
 .nav-link {
   font-size: 0.7rem;
@@ -114,7 +111,7 @@ body {
 .left-subheading {
   color: whitesmoke;
   font-family: 'Tungsten-Light';
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: bold;
   text-align: center;
   margin: 0px auto;
@@ -200,7 +197,7 @@ body {
 }
 
 .size {
-  font-size: 15px;
+  font-size: 0.7rem;
   color: #1a1818cc;
 }
 
@@ -311,7 +308,7 @@ h1 {
 
   width: 470px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   border-radius: 0 5px 5px 0;
   z-index: 12;
@@ -1105,18 +1102,73 @@ h1 {
     font-size: 3rem;
   }
   .left-subheading {
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+  .cybersecurity {
+    font-weight: bold;
+  }
+  .color-font {
+    color: #f86d18c9;
+  }
+  .network-centric {
+    font-weight: bold;
+    color: #d7d7d7;
+    font-size: 1.75rem;
   }
 }
 
-.cybersecurity {
-  font-weight: bold;
+@media (max-width: 768px) {
+  .space {
+    float: right;
+  }
+  .network-centric {
+    font-size: 1.3rem;
+  }
+  .timer.count-title.count-number {
+    font-size: 1rem;
+  }
+  .count-text {
+    font-size: 0.8rem;
+  }
+  .fa-2x {
+    font-size: 2.5rem;
+  }
+  .card-title {
+    font-size: 0.8rem !important;
+  }
+  .card-text {
+    font-size: 0.5rem;
+  }
+  .feed-text {
+    font-size: 0.6rem !important;
+  }
+  .info {
+    font-size: 0.78rem !important;
+  }
+  .timer.count-title.count-number {
+    font-size: 1.5rem !important;
+  }
 }
-.color-font {
-  color: #f86d18c9;
+@media (max-width: 425px) {
+  .left-heading {
+    font-size: 1.5rem;
+  }
+  .left-subheading {
+    font-size: 1.3rem;
+  }
+  .space {
+    float: right;
+  }
+  .network-centric {
+    font-size: 1.3rem;
+  }
+  .timer.count-title.count-number {
+    font-size: 1rem;
+  }
 }
-.network-centric {
-  font-weight: bold;
-  color: #d7d7d7;
-  font-size: 1.75rem;
+@media (min-width: 1366px) {
+  .top-nav {
+    width: 1366px;
+    margin: 0px auto !important;
+  }
 }

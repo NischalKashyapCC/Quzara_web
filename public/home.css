@@ -1,5 +1,5 @@
 body {
-  font-family: "Karla", sans-serif !important;
+  font-family: 'Karla', sans-serif !important;
   font-weight: normal;
   font-size: 1rem;
   background: #fff;
@@ -25,10 +25,7 @@ body {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
-.skew {
-  transform-origin: bottom left;
-  transform: skew(+15deg, 0deg);
-}
+
 .menu {
   height: 4.5rem;
 }
@@ -60,19 +57,6 @@ body {
 .nav-link.dropdown-toggle {
   color: #000000 !important;
 }
-/* .collapse.navbar-collapse.col-6 {
-  transform-origin: top right;
-  transform: skew(-16deg, 0deg);
-}
-.collapse.navbar-collapse.col-6.nav-2 {
-  background-color: #d3d3d3;
-  transform-origin: bottom left;
-  transform: skew(-16deg, 0deg);
-}
-.skew-2 {
-  transform-origin: bottom left;
-  transform: skew(+15deg, 0deg);
-} */
 
 .nav-link {
   font-size: 0.7rem;
@@ -104,7 +88,7 @@ body {
 
 .left-heading {
   color: whitesmoke;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 6rem;
   font-weight: bold;
   letter-spacing: 2px;
@@ -112,17 +96,11 @@ body {
 
 .left-subheading {
   color: whitesmoke;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 1.7rem;
   font-weight: bold;
   text-align: center;
   margin: 0px auto;
-}
-
-.left-stresscolor {
-  color: #f86d18c9;
-  font-family: "Tungsten-Light";
-  font-size: 5rem;
 }
 
 .request {
@@ -149,28 +127,20 @@ body {
   color: #fff;
 }
 
-.container-fluid {
+.first {
   padding-bottom: 3px;
   padding-top: 3px;
   background-color: #ffffff;
 }
 .info {
   padding-top: 20px;
-  /* font-family: "Libre Baskerville", "Times New Roman", Times, serif; */
   line-height: 26px;
   font-size: 0.9rem !important;
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
 }
-.country-name {
-  color: #000000c7 !important;
-  font-weight: bold;
-  font-size: 20px !important;
-}
-.number {
-  color: red;
-}
+
 .learn {
   background-color: #ffa809;
   text-align: center;
@@ -190,7 +160,6 @@ body {
   background-color: #242424;
 }
 .copyright {
-  /* font-family: "Libre Baskerville", "Times New Roman", Times, serif; */
   line-height: 26px;
   font-weight: 400;
   font-style: normal;
@@ -286,7 +255,7 @@ h1 {
   color: rgba(255, 255, 255, 1);
   letter-spacing: 5px;
   cursor: pointer;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   visibility: inherit;
   transition: none 0s ease 0s;
   text-align: center;
@@ -335,13 +304,13 @@ h1 {
 .para1 {
   color: #1a1818cc;
   font-size: 6.5rem;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
 }
 
 .prevent {
   color: #f86d18;
   font-size: 6.5rem;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
 }
 
 .replace {
@@ -456,7 +425,6 @@ h1 {
   color: #f86d18;
   text-align: center;
   background: #fff;
-  /* padding: 32px 20px; */
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -469,12 +437,6 @@ h1 {
 }
 .card-fa:hover {
   border-radius: 4px;
-  /* -webkit-transition: border-radius 1s linear;
-  -moz-transition: border-radius 1s linear;
-  -o-transition: border-radius 1s linear;
-  -ms-ransition: border-radius 1s linear;
-  transition: border-radius 1s linear; */
-  /* color: #ff8200; */
   transition: 0.2s ease-out;
 }
 
@@ -532,7 +494,6 @@ h1 {
 .fa {
   display: inline-block;
   font-family: FontAwesome;
-
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -540,11 +501,11 @@ h1 {
 }
 
 .fa-jsfiddle:before {
-  content: "\f1cc";
+  content: '\f1cc';
 }
 
 .fa-briefcase:before {
-  content: "\f0b1";
+  content: '\f0b1';
 }
 
 .feature-item h4 {
@@ -566,7 +527,7 @@ h1 {
 }
 .company-description {
   text-align: center;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 3rem;
   font-weight: bold;
 }
@@ -604,6 +565,7 @@ h1 {
   .social {
     text-align: center;
     font-weight: bold;
+    font-family: 'Tungsten-Light';
   }
 }
 
@@ -710,7 +672,7 @@ h1 {
 }
 
 .services ul {
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   color: #ffffff;
   font-size: 28px;
   position: absolute;
@@ -817,7 +779,6 @@ h1 {
 }
 
 .counter {
-  /* padding: 20px 0; */
   height: 60%;
   border-radius: 5px;
 }
@@ -828,18 +789,9 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   color: #1a1818cc;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
-.count-country-title {
-  font-size: 24px !important;
-  font-weight: normal;
-  margin-top: 10px;
-  margin-bottom: 0;
-  text-align: center;
-  color: #e63131;
-  font-family: "Lato", sans-serif;
-}
 .count-text {
   font-size: 1rem;
   font-weight: normal;
@@ -919,7 +871,7 @@ h1 {
 .slick-track:before,
 .slick-track:after {
   display: table;
-  content: "";
+  content: '';
 }
 
 .slick-track:after {
@@ -937,7 +889,7 @@ h1 {
   min-height: 1px;
 }
 
-[dir="rtl"] .slick-slide {
+[dir='rtl'] .slick-slide {
   float: right;
 }
 
@@ -973,7 +925,7 @@ h1 {
 
 .company-contact {
   text-align: center;
-  font-family: "Tungsten-Light";
+  font-family: 'Tungsten-Light';
   font-size: 2rem;
   color: #fff;
   z-index: 1;
@@ -982,7 +934,7 @@ h1 {
 
 .fs {
   font-size: 1.2rem;
-  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+
   line-height: 26px;
   font-weight: 400;
   color: #ffffff;
@@ -1061,6 +1013,7 @@ h1 {
 }
 .social {
   font-size: 1.75rem;
+  font-family: 'Tungsten-Light';
 }
 .before-footer {
   background: #f7f7f7;
@@ -1075,7 +1028,7 @@ h1 {
   }
   .company-contact {
     text-align: center;
-    font-family: "Tungsten-Light";
+    font-family: 'Tungsten-Light';
     font-size: 2rem;
     color: #fff;
     z-index: 1;
@@ -1098,35 +1051,54 @@ h1 {
     font-size: 3rem;
   }
 }
-
-/* .company-logo {
-  background: #f7f7f7;
-} */
-@media (max-width: 1336px) {
+@media (max-width: 1366px) {
   .left-heading {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
   .left-subheading {
     font-size: 1.7rem;
+    letter-spacing: 0.04em;
   }
   .cybersecurity {
     font-weight: bold;
+    font-size: 2.25rem !important;
   }
   .color-font {
     color: #f86d18c9;
   }
-  .network-centric {
+  .top-nav {
+    width: 1366px;
+    margin: 0px auto !important;
+  }
+  /* .network-centric {
     font-weight: bold;
     color: #d7d7d7;
-    font-size: 1.75rem;
+    font-size: 2.25rem !important;
+    letter-spacing: 2px;
+  } */
+  .company-description {
+    font-size: 2.25rem;
+    letter-spacing: 0.04em;
+  }
+  .social {
+    font-size: 2.25rem;
+    letter-spacing: 0.04em;
+  }
+  .company-contact {
+    font-size: 1.9rem;
+    letter-spacing: 0.04em;
+  }
+  .timer.count-title.count-number {
+    font-size: 1.5rem !important;
   }
 }
 .network-centric,
 .cybersecurity {
   color: #d7d7d7;
-  font-family: "Tungsten-Light", sans-serif;
-  font-size: 3.25em;
+  font-family: 'Tungsten-Light', sans-serif;
+  font-size: 2.25em;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 .cybersecurity {
   color: #373939;
@@ -1179,13 +1151,11 @@ h1 {
   .timer.count-title.count-number {
     font-size: 1rem;
   }
+  /* .navbar {
+    float: right;
+  } */
 }
-@media (min-width: 1366px) {
-  .top-nav {
-    width: 1366px;
-    margin: 0px auto !important;
-  }
-}
+
 @media (min-width: 2166px) {
   .display-table {
     height: calc(100vh - 60vh);

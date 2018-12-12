@@ -1013,8 +1013,9 @@ h1 {
   border: 0 !important;
 }
 .social {
-  font-size: 1.75rem;
+  font-size: 2.25em;
   font-family: 'Tungsten-Light';
+  letter-spacing: 2px;
 }
 .before-footer {
   background: #f7f7f7;

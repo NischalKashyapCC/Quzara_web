@@ -176,13 +176,6 @@ body {
   color: black !important;
   cursor: pointer;
 }
-
-.dark-bg {
-  background: rgba(33, 35, 35, 0.8);
-  color: #ffffff;
-  border-bottom: 8px solid #f86d18;
-}
-
 .vertical-text {
   position: absolute;
   transform: rotateZ(-90deg);
@@ -211,20 +204,6 @@ body {
 
 .display-table {
   background: rgba(0, 0, 0, 0.4);
-}
-
-h1 {
-  margin: 0;
-  line-height: 1;
-}
-
-.stresscolor {
-  color: #f86d18;
-  font-size: 6.5rem;
-}
-
-.second-left {
-  margin-top: 5rem;
 }
 
 .display-table {
@@ -276,7 +255,6 @@ h1 {
   left: -442px;
   position: fixed;
   transition: 0.3s;
-
   width: 470px;
   text-decoration: none;
   font-size: 18px;
@@ -299,37 +277,6 @@ h1 {
   height: auto;
   background-color: #f86d18;
   line-height: 30px;
-}
-
-.para1 {
-  color: #1a1818cc;
-  font-size: 6.5rem;
-  font-family: 'Tungsten-Light';
-}
-
-.prevent {
-  color: #f86d18;
-  font-size: 6.5rem;
-  font-family: 'Tungsten-Light';
-}
-
-.replace {
-  color: #f86d18;
-  font-family: inherit;
-  padding-left: 10px;
-  background-color: #000000;
-}
-
-.left-content {
-  letter-spacing: 1px;
-  font-size: 20px;
-  color: gray;
-}
-
-.second-right {
-  font-family: inherit;
-  color: #f86d18;
-  background-color: #000000;
 }
 
 .css-typing {
@@ -521,10 +468,7 @@ h1 {
 .feature-item .sep {
   display: none;
 }
-.dollar {
-  color: #d7d7d7;
-  font-size: 15px;
-}
+
 .company-description {
   text-align: center;
   font-family: 'Tungsten-Light';
@@ -765,7 +709,7 @@ h1 {
   }
 
   #mySidenav a {
-    left: -150px;
+    left: -140px;
     position: absolute;
     transition: 0.3s;
     padding: 6px;
@@ -991,7 +935,7 @@ h1 {
 
 #particles-js {
   position: absolute;
-  height: 290px !important;
+  height: 258px !important;
   width: 100%;
   background: rgba(33, 35, 35, 0.9) !important;
 }
@@ -1024,27 +968,31 @@ h1 {
 @media (max-width: 576px) {
   #particles-js {
     position: absolute;
-    height: 505px !important;
+    height: 507px !important;
     width: 100%;
     background: rgba(33, 35, 35, 0.9) !important;
   }
   .company-contact {
     text-align: center;
     font-family: 'Tungsten-Light';
-    font-size: 2rem;
+    font-size: 1rem !important;
+    letter-spacing: 0.08em;
     color: #fff;
     z-index: 1;
     position: relative;
   }
-}
-@media (max-width: 360px) {
-  .left-heading {
-    font-size: 2rem;
+  /* .first {
+    overflow-x: hidden;
+  } */
+  .vertical-text {
+    position: absolute;
+    transform: rotateZ(-90deg);
+    right: -25px;
+    top: 94px;
+    padding: 0 !important;
   }
-  .left-subheading {
-    font-size: 1.5rem;
-  }
 }
+
 @media (min-width: 1141px) {
   .left-heading {
     font-size: 6rem;
@@ -1073,10 +1021,7 @@ h1 {
     margin: 0px auto !important;
   }
   /* .network-centric {
-    font-weight: bold;
-    color: #d7d7d7;
-    font-size: 2.25rem !important;
-    letter-spacing: 2px;
+   
   } */
   .company-description {
     font-size: 2.25rem;
@@ -1149,10 +1094,12 @@ h1 {
   }
   .network-centric {
     font-size: 1.3rem;
+    letter-spacing: 3px;
   }
   .timer.count-title.count-number {
     font-size: 1rem;
   }
+
   /* .navbar {
     float: right;
   } */
@@ -1164,5 +1111,10 @@ h1 {
   }
   .nav-link {
     font-size: 1.05rem;
+  }
+}
+@media (min-width: 768px) {
+  .first {
+    position: fixed;
   }
 }

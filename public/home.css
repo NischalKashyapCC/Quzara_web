@@ -713,7 +713,7 @@ body {
 
   #mySidenav a {
     left: -135px;
-    position: absolute;
+    position: fixed;
     transition: 0.3s;
     padding: 6px;
     width: 40px;
@@ -972,7 +972,7 @@ body {
   #particles-js {
     position: absolute;
     /* height: 507px !important; */
-    height: 476px !important;
+    height: 460px !important;
     width: 100%;
     background: rgba(33, 35, 35, 0.9) !important;
   }
@@ -1066,13 +1066,13 @@ body {
     font-size: 1rem;
   }
   .count-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .fa-2x {
     font-size: 2.5rem;
   }
   .card-title {
-    font-size: 0.8rem !important;
+    font-size: 1rem !important;
   }
   .card-text {
     font-size: 1rem;
@@ -1124,6 +1124,20 @@ body {
 @media (min-width: 768px) {
   .first {
     position: fixed;
+    z-index: 12;
+  }
+}
+@media screen and (max-width: 375px) {
+  #mySidenav a {
+    left: -130px;
+    position: absolute;
+    transition: 0.3s;
+    padding: 6px;
+    width: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 0 5px 5px 0;
     z-index: 12;
   }
 }

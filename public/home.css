@@ -92,6 +92,7 @@ body {
   font-size: 6rem;
   font-weight: bold;
   letter-spacing: 2px;
+  padding-top: 3rem;
 }
 
 .left-subheading {
@@ -134,6 +135,7 @@ body {
 }
 .info {
   padding-top: 20px;
+  padding-bottom: 20px;
   line-height: 26px;
   font-size: 0.9rem !important;
   font-weight: 400;
@@ -275,6 +277,7 @@ body {
   position: fixed;
   bottom: 7rem;
   height: auto;
+  z-index: 12;
   background-color: #f86d18;
   line-height: 30px;
 }
@@ -429,7 +432,7 @@ body {
 }
 .card-text {
   color: #a79e9e;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 .optiv-card {
   border: none !important;
@@ -472,7 +475,8 @@ body {
 .company-description {
   text-align: center;
   font-family: 'Tungsten-Light';
-  font-size: 3rem;
+  font-size: 2.25rem;
+  letter-spacing: 2px;
   font-weight: bold;
 }
 
@@ -709,7 +713,7 @@ body {
   }
 
   #mySidenav a {
-    left: -140px;
+    left: -135px;
     position: absolute;
     transition: 0.3s;
     padding: 6px;
@@ -1032,8 +1036,8 @@ body {
     letter-spacing: 0.04em;
   }
   .company-contact {
-    font-size: 1.9rem;
-    letter-spacing: 0.04em;
+    font-size: 2rem;
+    letter-spacing: 2px;
   }
   .timer.count-title.count-number {
     font-size: 1.5rem !important;
@@ -1055,7 +1059,8 @@ body {
     float: right;
   }
   .network-centric {
-    font-size: 1.3rem;
+    font-size: 1.6em;
+    letter-spacing: 2px;
   }
   .timer.count-title.count-number {
     font-size: 1rem;
@@ -1070,16 +1075,19 @@ body {
     font-size: 0.8rem !important;
   }
   .card-text {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   .feed-text {
-    font-size: 0.6rem !important;
+    font-size: 1rem !important;
   }
   .info {
-    font-size: 0.78rem !important;
+    font-size: 0.7rem !important;
   }
   .timer.count-title.count-number {
     font-size: 1.5rem !important;
+  }
+  .company-contact {
+    font-size: 1.8rem !important;
   }
 }
 @media (max-width: 425px) {
@@ -1116,5 +1124,6 @@ body {
 @media (min-width: 768px) {
   .first {
     position: fixed;
+    z-index: 12;
   }
 }

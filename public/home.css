@@ -26,6 +26,9 @@ body {
   display: block;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
 .menu {
   height: 4.5rem;
 }
@@ -59,7 +62,7 @@ body {
 }
 
 .nav-link {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
   font-weight: bold;
   color: #000000cc !important;
   padding-top: 15px;
@@ -152,10 +155,10 @@ body {
 }
 
 .logo {
-  width: 189px;
+  width: 289px;
   float: left;
-  padding: 10px;
-  padding-bottom: 0;
+  padding: 10px 0px;
+  transition: all 0.3s ease;
 }
 .last-foot {
   background-color: #242424;
@@ -181,7 +184,7 @@ body {
   position: absolute;
   transform: rotateZ(-90deg);
   right: -33px;
-  top: 45px;
+  top: 78px;
   padding: 0 !important;
 }
 
@@ -253,12 +256,12 @@ body {
 }
 
 #mySidenav a {
-  left: -442px;
+  left: -432px;
   position: fixed;
   transition: 0.3s;
   width: 470px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   color: white;
   border-radius: 0 5px 5px 0;
   z-index: 12;
@@ -278,7 +281,7 @@ body {
   height: auto;
   z-index: 12;
   background-color: #f86d18;
-  line-height: 30px;
+  line-height: 49px;
 }
 
 .css-typing {
@@ -377,9 +380,14 @@ body {
   border-radius: 50%;
   width: 80px;
   height: 80px;
+  margin: 0 auto;
   line-height: 86px !important;
   transition: 0.2s ease-in;
   cursor: pointer;
+}
+.card-fa img {
+  width: 80%;
+  margin-top: -12px;
 }
 .optiv-card .card-body {
   color: #fff;

@@ -73,7 +73,7 @@
     to: 0, // the number the element should end at
     speed: 1000, // how long it should take to count between the target numbers
     refreshInterval: 100, // how often the element should be updated
-    decimals: 0, // the number of decimal places to show
+    decimals: 2, // the number of decimal places to show
     formatter: formatter, // handler for formatting the value before rendering
     onUpdate: null, // callback method for every time the element is updated
     onComplete: null // callback method for when the element finishes updating
@@ -135,4 +135,17 @@ $(document).ready(function() {
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('callback - particles.js config loaded');
+});
+
+// navbar resize
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+    $('.logo').css('width', '200px');
+    $('.navbar').css('padding-top', '10px');
+  }
+  if ($(this).scrollTop() < 100) {
+    $('.logo').css('width', '254px');
+    $('.navbar').css('padding-top', '10px');
+  }
 });

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="161px" viewBox="0 0 161 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group-40</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-40" transform="translate(1.000000, 2.000000)">
+            <path d="M147.28,79.3 C147.294876,89.0889863 145.186409,98.7647351 141.1,107.66 L98.28,107.66 C98.006586,102.791258 96.0520691,98.1682781 92.75,94.58 C89.4104449,90.8741906 84.6683851,88.740808 79.68,88.7 C77.2653916,88.7055792 74.8794727,89.2236644 72.68,90.22 C70.4108604,91.261412 68.371346,92.7434591 66.68,94.58 C63.3800508,98.1696423 61.4258696,102.791829 61.15,107.66 L17.42,107.66 C5.82186338,82.3572169 10.7998024,52.542152 29.9888531,32.379614 C49.1779037,12.217076 78.7103588,5.77098636 104.555674,16.1038113 C130.40099,26.4366362 147.349835,51.4657117 147.35,79.3 L147.28,79.3 Z" id="_Path_" fill="#9ABFE2"></path>
+            <g id="_Group_11" stroke-linecap="round" stroke-linejoin="round" transform="translate(60.000000, 95.000000)" stroke="#3B6D96" stroke-width="3">
+                <path d="M9.13,16.87 C6.89687716,16.87 4.75521721,17.7571046 3.1761609,19.3361609 C1.5971046,20.9152172 0.71,23.0568772 0.71,25.29 L0.71,33.85 C0.707614809,35.2583207 0.855112029,36.6628965 1.15,38.04 C1.80411785,41.1665881 3.2503207,44.0727671 5.35,46.48 C8.28677067,49.9390688 12.5825792,51.9501058 17.12,51.99 L22.45,51.99 C31.51,51.99 38.85,43.86 38.85,33.85 L38.85,25.29 C38.85,20.6397624 35.0802376,16.87 30.43,16.87 L9.13,16.87 Z" id="_Path_72"></path>
+                <path d="M6.06,16.87 C5.42,7.99 11.85,0.37 19.66,0.37 C27.47,0.37 33.9,7.99 33.26,16.87" id="_Path_73"></path>
+            </g>
+            <path d="M84.93,126.79 L83.34,130.19 L83.42,134.31 C83.4927656,136.094324 82.2671964,137.67066 80.52,138.04 L80.07,138.09 C79.7380266,138.132582 79.4019734,138.132582 79.07,138.09 C77.274376,137.749658 75.9984077,136.146191 76.07,134.32 C76.07,132.96 76.14,131.59 76.18,130.23 L74.59,126.83 C73.7515274,125.089798 73.8428667,123.044863 74.8331471,121.386345 C75.8234275,119.727827 77.5803095,118.677366 79.51,118.59 L79.87,118.59 C81.8113299,118.642821 83.5953426,119.670352 84.6151885,121.323067 C85.6350344,122.975781 85.7533917,125.031143 84.93,126.79 Z" id="_Path_74" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="_Path_75" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="96.38 114.33 151.62 114.33 151.62 136.43 97.34 136.43"></polyline>
+            <path d="M124,114.33 L124,136.42" id="_Path_76" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M107.51,157.39 L107.51,136.43" id="_Path_77" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="_Path_78" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="151.62 136.43 151.62 157.39 79.68 157.39"></polyline>
+            <polyline id="_Path_79" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="63.08 114.33 7.84 114.33 7.84 136.43 62.11 136.43"></polyline>
+            <path d="M35.46,114.33 L35.46,136.43" id="_Path_80" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M51.95,157.39 L51.95,136.43" id="_Path_81" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="_Path_82" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="7.84 136.43 7.84 157.39 79.78 157.39"></polyline>
+            <path d="M152.11,107.55 C155.465694,99.4383656 157.371283,90.8005953 157.74,82.03 C157.74,81.2566667 157.76,80.4766667 157.8,79.69 C158.28,36.76 123.64,1.03 80.72,0.24 C59.3639654,-0.166057088 38.7626019,8.13802265 23.6579325,23.2408057 C8.553263,38.3435887 0.246610252,58.9439149 0.65,80.3 C0.833416205,89.9109064 2.79657121,99.4045748 6.44,108.3" id="_Path_83" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M79.22,0.22 L79.22,27.19" id="_Path_84" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M117.97,78.81 L157.81,78.81" id="_Path_85" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0.63,78.81 L117.97,78.81" id="_Path_86" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M27.7,19.5 C61.2651499,29.7711825 97.1348501,29.7711825 130.7,19.5" id="_Path_87" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M60.7,2.43 C55.86,7.1 27.96,34.88 28.2,79.36 C28.2373985,88.686001 29.5392594,97.9638624 32.07,106.94" id="_Path_88" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M97.77,2.43 C102.61,7.1 130.5,34.88 130.27,79.36 C130.231702,88.3836579 129.011316,97.3634089 126.64,106.07" id="_Path_89" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M79.73,27.19 L79.73,88.94" id="_Path_91" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

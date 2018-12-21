@@ -1,13 +1,11 @@
-(function($) {
-  $.fn.countTo = function(options) {
+(function ($) {
+  $.fn.countTo = function (options) {
     options = options || {};
 
-    return $(this).each(function() {
+    return $(this).each(function () {
       // set options for current element
-      var settings = $.extend(
-        {},
-        $.fn.countTo.defaults,
-        {
+      var settings = $.extend({},
+        $.fn.countTo.defaults, {
           from: $(this).data('from'),
           to: $(this).data('to'),
           speed: $(this).data('speed'),
@@ -73,7 +71,8 @@
     to: 0, // the number the element should end at
     speed: 1000, // how long it should take to count between the target numbers
     refreshInterval: 100, // how often the element should be updated
-    decimals: 2, // the number of decimal places to show
+    decimals: 0, // the number of decimal places to show
+    decimalsCount: 2,
     formatter: formatter, // handler for formatting the value before rendering
     onUpdate: null, // callback method for every time the element is updated
     onComplete: null // callback method for when the element finishes updating
@@ -84,17 +83,22 @@
   }
 })(jQuery);
 
-jQuery(function($) {
+jQuery(function ($) {
   // custom formatting example
   $('.count-number').data('countToOptions', {
-    formatter: function(value, options) {
+    formatter: function (value, options) {
       return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+    }
+  });
+  $('.count-number.decimal').data('countToOptions', {
+    formatter: function (value, options) {
+      return value.toFixed(options.decimalsCount).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
     }
   });
 
   // start all the timers
 
-  setInterval(function() {
+  setInterval(function () {
     $('.timer').each(count);
   }, 3000);
 
@@ -106,7 +110,7 @@ jQuery(function($) {
 });
 
 // client slider
-$(document).ready(function() {
+$(document).ready(function () {
   $('.customer-logos').slick({
     slidesToShow: 6,
     slidesToScroll: 1,
@@ -115,8 +119,7 @@ $(document).ready(function() {
     arrows: false,
     dots: false,
     pauseOnHover: false,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 768,
         settings: {
           slidesToShow: 4
@@ -133,19 +136,27 @@ $(document).ready(function() {
 });
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'particles.json', function() {
+particlesJS.load('particles-js', 'particles.json', function () {
   console.log('callback - particles.js config loaded');
 });
 
 // navbar resize
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(this).scrollTop() > 100) {
-    $('.logo').css('width', '200px');
+    $('.logo').css('width', '230px');
     $('.navbar').css('padding-top', '10px');
   }
   if ($(this).scrollTop() < 100) {
-    $('.logo').css('width', '254px');
+    $('.logo').css('width', '284px');
     $('.navbar').css('padding-top', '10px');
   }
 });
+
+// to close the notification bar
+
+(function ($) {
+  $('.pindrop-notification-placeholder').click(function () {
+    $('#div1').remove();
+  });
+})(jQuery);

@@ -161,9 +161,9 @@ body {
   padding: 10px 0px;
   transition: all 0.3s ease;
 }
-.last-foot {
+/* .last-foot {
   background-color: #242424;
-}
+} */
 .copyright {
   line-height: 46px;
   font-weight: 400;
@@ -1001,7 +1001,9 @@ body {
 .before-footer {
   background: #f7f7f7;
 }
-
+footer {
+  background: #242424;
+}
 @media (max-width: 576px) {
   #particles-js {
     position: absolute;
@@ -1341,9 +1343,9 @@ body {
   padding: 10px 0px;
   transition: all 0.3s ease;
 }
-.last-foot {
+/* .last-foot {
   background-color: #242424;
-}
+} */
 .copyright {
   line-height: 46px;
   font-weight: 400;

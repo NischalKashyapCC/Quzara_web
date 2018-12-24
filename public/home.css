@@ -28,6 +28,7 @@ body {
 
 .text-underline {
   cursor: pointer;
+  font-size: 36px;
 }
 .menu {
   height: 4.5rem;
@@ -282,7 +283,7 @@ body {
   height: auto;
   z-index: 12;
   background-color: #f86d18;
-  line-height: 49px;
+  line-height: 35px;
 }
 
 .css-typing {

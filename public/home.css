@@ -22,7 +22,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover>ul.dropdown-menu {
+.navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
 
@@ -47,12 +47,12 @@ body {
   position: relative;
 }
 
-.dropdown-submenu>.dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu>li>a:hover:after {
+.dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
@@ -283,7 +283,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a>div {
+#mySidenav a > div {
   padding: 15px;
 }
 
@@ -1017,7 +1017,6 @@ body {
 
 #particles-js1 {
   height: 100% !important;
-
 }
 
 .particle-card {
@@ -1033,7 +1032,6 @@ body {
 
 .feed-text {
   font-size: 0.9rem;
-  /* border-right: 0.5px solid #f86d18c9; */
 }
 
 .no-border {
@@ -1057,7 +1055,6 @@ footer {
 @media (max-width: 576px) {
   #particles-js {
     position: absolute;
-    /* height: 507px !important; */
     height: 460px !important;
     width: 100%;
     background: rgba(33, 35, 35, 0.9) !important;
@@ -1073,9 +1070,6 @@ footer {
     position: relative;
   }
 
-  /* .first {
-    overflow-x: hidden;
-  } */
   .vertical-text {
     position: absolute;
     transform: rotateZ(-90deg);
@@ -1222,10 +1216,6 @@ footer {
   .timer.count-title.count-number {
     font-size: 1rem;
   }
-
-  /* .navbar {
-    float: right;
-  } */
 }
 
 @media (min-width: 2166px) {
@@ -1373,9 +1363,6 @@ footer {
   transition: all 0.3s ease;
 }
 
-/* .last-foot {
-  background-color: #242424;
-} */
 .copyright {
   line-height: 46px;
   font-weight: 400;
@@ -1449,8 +1436,7 @@ footer {
   color: #f86d18c9;
 }
 
-/* client sider */
-/* Slider */
+/* client slider */
 
 .slick-slide {
   margin: 0px 20px;
@@ -1629,7 +1615,6 @@ footer {
 
 .feed-text {
   font-size: 0.9rem;
-  /* border-right: 0.5px solid #f86d18c9; */
 }
 
 .no-border {
@@ -1647,19 +1632,11 @@ footer {
 }
 
 @media (max-width: 576px) {
-  /* .vertical-text {
-    position: absolute;
-    transform: rotateZ(-90deg);
-    right: -25px;
-    top: 94px;
-    padding: 0 !important;
-  } */
 }
 
 .white-bg {
   background: #ffffff;
   border-radius: 4px;
-  /* margin-right: 10px; */
 }
 
 @media (min-width: 1141px) {
@@ -1740,372 +1717,41 @@ footer {
   }
 }
 
-/* vertical scroll */
-
-/* .auto_v_scroll {
-  width: 260px;
-  margin: 20px auto;
-  height: 300px;
-  background-color: #333;
-  overflow: hidden;
-}
-.auto-scroll.ul {
-  list-style: none;
-  position: relative;
-}
-.auto-scroll.li {
-  height: 100px;
-  background-color: rgba(57, 173, 117, 0.3);
-  text-align: center;
-  border-bottom: 1px solid #333;
-}
-.auto-scroll.h2 {
-  color: #fff;
-  padding-top: 10px;
-}
-.auto-scroll.p {
-  text-align: left;
-  padding: 10px;
-  color: #eee;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-} */
-
 /* Progress bars */
 
 .progress {
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-color: transparent;
 }
 
 .progressbar-text {
-  font-size: 46px;
+  font-size: 56px;
   color: #fff !important;
 }
 
-.progress>svg {
+.progress > svg {
   width: 100%;
   display: block;
 }
 
-.progress>svg>path:first-child {
+.progress > svg > path:first-child {
   opacity: 0.1;
 }
 
-.progress>svg>path {
+.progress > svg > path {
   stroke: #ff6347;
 }
 
-#progress1>svg>path {
+#progress1 > svg > path {
   stroke: #00ff7f;
 }
 
-#progress2>svg>path {
+#progress2 > svg > path {
   stroke: #1e90ff;
 }
 
-#progress3>svg>path {
+#progress3 > svg > path {
   stroke: #f15a29;
   stroke-width: 10;
 }
-
-/* second progress bar */
-/* 
-.chart-one {
-  width: 200px;
-  height: 200px;
-  margin: 0;
-  position: relative;
-}
-.chart-one.animate svg .circle-foreground {
-  -webkit-animation: offset 3s ease-in-out forwards;
-  animation: offset 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-one.animate figcaption:after {
-  -webkit-animation: chart-one-label 3s steps(32) forwards;
-  animation: chart-one-label 3s steps(32) forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-one svg {
-  width: 100%;
-  height: 100%;
-}
-.chart-one svg .circle-background,
-.chart-one svg .circle-foreground {
-  r: 99.5px;
-  cx: 50%;
-  cy: 50%;
-  fill: none;
-  stroke: #305556;
-  stroke-width: 1px;
-}
-.chart-one svg .circle-foreground {
-  stroke: #79be9b;
-  stroke-dasharray: 199.9552px 624.86px;
-  stroke-dashoffset: 199.9552px;
-  stroke-linecap: round;
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-.chart-one figcaption {
-  display: inline-block;
-  width: 100%;
-  height: 2.5rem;
-  overflow: hidden;
-  text-align: center;
-  color: #c6e8d7;
-  position: absolute;
-  top: calc(50% - 1.25rem);
-  left: 0;
-  font-size: 0;
-}
-.chart-one figcaption:after {
-  display: inline-block;
-  content: '0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a';
-  white-space: pre;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-}
-
-@-webkit-keyframes chart-one-label {
-  100% {
-    -webkit-transform: translateY(-80rem);
-    transform: translateY(-80rem);
-  }
-}
-
-@keyframes chart-one-label {
-  100% {
-    -webkit-transform: translateY(-80rem);
-    transform: translateY(-80rem);
-  }
-}
-.chart-two {
-  width: 300px;
-  height: 300px;
-  margin: 0;
-  position: relative;
-}
-.chart-two.animate svg .circle-foreground {
-  -webkit-animation: offset 3s ease-in-out forwards;
-  animation: offset 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-two.animate figcaption:after {
-  -webkit-animation: chart-two-label 3s steps(50) forwards;
-  animation: chart-two-label 3s steps(50) forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-two svg {
-  width: 100%;
-  height: 100%;
-}
-.chart-two svg .circle-background,
-.chart-two svg .circle-foreground {
-  r: 134.5px;
-  cx: 50%;
-  cy: 50%;
-  fill: none;
-  stroke: #ec997d;
-  opacity: 0.5;
-  stroke-width: 25px;
-}
-.chart-two svg .circle-foreground {
-  stroke: #ff4608;
-  stroke-dasharray: 420.45px 580.9px;
-  stroke-dashoffset: 420.45px;
-  stroke-linecap: round;
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-.chart-two figcaption {
-  display: inline-block;
-  width: 100%;
-  height: 2.5rem;
-  overflow: hidden;
-  text-align: center;
-  color: #c6e8d7;
-  position: absolute;
-  top: calc(50% - 1.25rem);
-  left: 0;
-  font-size: 0;
-}
-.chart-two figcaption:after {
-  display: inline-block;
-  content: '0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a';
-  white-space: pre;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-}
-.chart-four {
-  width: 300px;
-  height: 300px;
-  margin: 0;
-  position: relative;
-}
-.chart-four.animate svg .circle-foreground {
-  -webkit-animation: offset 3s ease-in-out forwards;
-  animation: offset 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-four.animate figcaption:after {
-  -webkit-animation: chart-four-label 3s steps(50) forwards;
-  animation: chart-four-label 3s steps(50) forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-four svg {
-  width: 100%;
-  height: 100%;
-}
-.chart-four svg .circle-background,
-.chart-four svg .circle-foreground {
-  r: 134.5px;
-  cx: 50%;
-  cy: 50%;
-  fill: none;
-  stroke: #94d1f7;
-  opacity: 0.3;
-  stroke-width: 25px;
-}
-.chart-four svg .circle-foreground {
-  stroke: #007bff;
-  stroke-dasharray: 290.45px 580.9px;
-  stroke-dashoffset: 290.45px;
-  stroke-linecap: round;
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-.chart-four figcaption {
-  display: inline-block;
-  width: 100%;
-  height: 2.5rem;
-  overflow: hidden;
-  text-align: center;
-  color: #c6e8d7;
-  position: absolute;
-  top: calc(50% - 1.25rem);
-  left: 0;
-  font-size: 0;
-}
-.chart-four figcaption:after {
-  display: inline-block;
-  content: '0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a';
-  white-space: pre;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-}
-
-@-webkit-keyframes chart-two-label {
-  100% {
-    -webkit-transform: translateY(-125rem);
-    transform: translateY(-125rem);
-  }
-}
-
-@keyframes chart-two-label {
-  100% {
-    -webkit-transform: translateY(-125rem);
-    transform: translateY(-125rem);
-  }
-}
-.chart-three {
-  width: 300px;
-  height: 300px;
-  margin: 0;
-  position: relative;
-}
-.chart-three.animate svg .circle-foreground {
-  -webkit-animation: offset 3s ease-in-out forwards;
-  animation: offset 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-three.animate figcaption:after {
-  -webkit-animation: chart-three-label 3s steps(75) forwards;
-  animation: chart-three-label 3s steps(75) forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.chart-three svg {
-  width: 100%;
-  height: 100%;
-}
-.chart-three svg .circle-background,
-.chart-three svg .circle-foreground {
-  r: 134.5px;
-  cx: 50%;
-  cy: 50%;
-  fill: none;
-  stroke: #89f0b4;
-  opacity: 0.5;
-  stroke-width: 25px;
-}
-.chart-three svg .circle-foreground {
-  stroke: #09f944;
-  stroke-dasharray: 412.125px 549.5px;
-  stroke-dashoffset: 412.125px;
-  stroke-linecap: round;
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-.chart-three figcaption {
-  display: inline-block;
-  width: 100%;
-  height: 2.5rem;
-  overflow: hidden;
-  text-align: center;
-  color: #c6e8d7;
-  position: absolute;
-  top: calc(50% - 1.25rem);
-  left: 0;
-  font-size: 0;
-}
-.chart-three figcaption:after {
-  display: inline-block;
-  content: '0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a';
-  white-space: pre;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-}
-
-@-webkit-keyframes chart-three-label {
-  100% {
-    -webkit-transform: translateY(-187.5rem);
-    transform: translateY(-187.5rem);
-  }
-}
-
-@keyframes chart-three-label {
-  100% {
-    -webkit-transform: translateY(-187.5rem);
-    transform: translateY(-187.5rem);
-  }
-}
-@-webkit-keyframes offset {
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-@keyframes offset {
-  100% {
-    stroke-dashoffset: 0;
-  }
-} */
-/* } */

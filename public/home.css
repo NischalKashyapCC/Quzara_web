@@ -22,7 +22,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+.navbar-nav li:hover>ul.dropdown-menu {
   display: block;
 }
 
@@ -30,9 +30,11 @@ body {
   cursor: pointer;
   font-size: 36px;
 }
+
 .underline {
   text-decoration: underline;
 }
+
 .menu {
   height: 4.5rem;
 }
@@ -45,12 +47,12 @@ body {
   position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu > li > a:hover:after {
+.dropdown-menu>li>a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
@@ -111,9 +113,11 @@ body {
   text-align: center;
   margin: 0px auto;
 }
+
 .custom_icon {
   width: 66% !important;
 }
+
 .request {
   background: #f86d18;
   border-color: #f86d18;
@@ -279,7 +283,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a > div {
+#mySidenav a>div {
   padding: 15px;
 }
 
@@ -1003,11 +1007,17 @@ body {
   color: white;
 }
 
-#particles-js {
+#particles-js,
+#particles-js1 {
   position: absolute;
   height: 283px !important;
   width: 100%;
   background: rgba(33, 35, 35, 0.9) !important;
+}
+
+#particles-js1 {
+  height: 100% !important;
+
 }
 
 .particle-card {
@@ -1108,9 +1118,11 @@ footer {
     width: 1366px;
     margin: 0px auto !important;
   }
+
   .network-centric {
     color: #d7d7d7;
   }
+
   .company-description {
     font-size: 2.25rem;
     letter-spacing: 0.04em;
@@ -1138,6 +1150,8 @@ footer {
   font-size: 2.25em;
   font-weight: bold;
   letter-spacing: 2px;
+  z-index: 1;
+  position: relative;
 }
 
 .cybersecurity {
@@ -1218,6 +1232,7 @@ footer {
   .display-table {
     height: calc(100vh - 50vh);
   }
+
   .threat-info {
     margin-top: 40px;
   }
@@ -1770,24 +1785,28 @@ footer {
   color: #fff !important;
 }
 
-.progress > svg {
+.progress>svg {
   width: 100%;
   display: block;
 }
 
-.progress > svg > path {
+.progress>svg>path:first-child {
+  opacity: 0.1;
+}
+
+.progress>svg>path {
   stroke: #ff6347;
 }
 
-#progress1 > svg > path {
+#progress1>svg>path {
   stroke: #00ff7f;
 }
 
-#progress2 > svg > path {
+#progress2>svg>path {
   stroke: #1e90ff;
 }
 
-#progress3 > svg > path {
+#progress3>svg>path {
   stroke: #f15a29;
   stroke-width: 10;
 }

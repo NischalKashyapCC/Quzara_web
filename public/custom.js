@@ -1,13 +1,11 @@
-(function($) {
-  $.fn.countTo = function(options) {
+(function ($) {
+  $.fn.countTo = function (options) {
     options = options || {};
 
-    return $(this).each(function() {
+    return $(this).each(function () {
       // set options for current element
-      var settings = $.extend(
-        {},
-        $.fn.countTo.defaults,
-        {
+      var settings = $.extend({},
+        $.fn.countTo.defaults, {
           from: $(this).data('from'),
           to: $(this).data('to'),
           speed: $(this).data('speed'),
@@ -85,22 +83,22 @@
   }
 })(jQuery);
 
-jQuery(function($) {
+jQuery(function ($) {
   // custom formatting example
   $('.count-number').data('countToOptions', {
-    formatter: function(value, options) {
+    formatter: function (value, options) {
       return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
     }
   });
   $('.count-number.decimal').data('countToOptions', {
-    formatter: function(value, options) {
+    formatter: function (value, options) {
       return value.toFixed(options.decimalsCount).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
     }
   });
 
   // start all the timers
 
-  setInterval(function() {
+  setInterval(function () {
     $('.timer').each(count);
   }, 3000);
 
@@ -112,7 +110,7 @@ jQuery(function($) {
 });
 
 // client slider
-$(document).ready(function() {
+$(document).ready(function () {
   $('.customer-logos').slick({
     slidesToShow: 6,
     slidesToScroll: 1,
@@ -121,8 +119,7 @@ $(document).ready(function() {
     arrows: false,
     dots: false,
     pauseOnHover: false,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 768,
         settings: {
           slidesToShow: 4
@@ -139,13 +136,16 @@ $(document).ready(function() {
 });
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('callback - particles.js config loaded');
+particlesJS.load('particles-js', 'particles.json', function () {
+  // console.log('callback - particles.js config loaded');
+});
+particlesJS.load('particles-js1', 'particles.json', function () {
+  // console.log('callback - particles.js config loaded');
 });
 
 // navbar resize
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(this).scrollTop() > 100) {
     $('.logo').css('width', '230px');
     $('.navbar').css('padding-top', '10px');
@@ -158,8 +158,8 @@ $(window).scroll(function() {
 
 // to close the notification bar
 
-(function($) {
-  $('.pindrop-notification-placeholder').click(function() {
+(function ($) {
+  $('.pindrop-notification-placeholder').click(function () {
     $('#div1').remove();
   });
 })(jQuery);
@@ -169,12 +169,13 @@ $(window).scroll(function() {
 var startColor = '#FC5B3F';
 var endColor = '#9ec64d';
 
-$('.progress').each(function(i) {
+$('.progress').each(function (i) {
   var circle = new ProgressBar.Circle(this, {
     color: startColor,
     easing: 'linear',
     strokeWidth: 8,
-    duration: 1500,
+    trailWidth: 8,
+    duration: 5500,
     text: {
       value: '0'
     }
@@ -189,7 +190,7 @@ $('.progress').each(function(i) {
     to: {
       color: endColor
     },
-    step: function(state, circle, bar) {
+    step: function (state, circle, bar) {
       circle.path.setAttribute('stroke', state.color);
       console.log(circle);
       circle.setText((circle.value() * 100).toFixed(0) + '%');

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="207px" height="130px" viewBox="0 0 207 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(1.000000, 1.000000)">
+            <path d="M155.46,15.89 C132.46,16.49 119.74,36.39 118.46,38.51 C118.62,55.37 119.28,94.3 150.36,114.41 C153.97356,116.801233 158.66644,116.801233 162.28,114.41 C193.82,94 194.03,55.32 194.13,37.72 C192.91,35.84 179.24,15.27 155.46,15.89 Z M171.46,77.42 C171.46,79.192834 170.022834,80.63 168.25,80.63 L147.25,80.63 C145.477166,80.63 144.04,79.192834 144.04,77.42 L144.04,62.42 C144.04,60.647166 145.477166,59.21 147.25,59.21 L168.25,59.21 C170.022834,59.21 171.46,60.647166 171.46,62.42 L171.46,77.42 Z" id="_Compound_Path_25" fill="#FFEB99" fill-rule="nonzero"></path>
+            <g id="_Group_144" stroke="#847B42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                <path d="M28.3,23.69 L100.05,23.69" id="_Path_673"></path>
+                <path d="M156.27,127 L0.84,127 L0.84,10.79 C0.839952073,8.12740663 1.90175277,5.57473227 3.79011348,3.69763416 C5.67847418,1.82053604 8.23745456,0.774024439 10.9,0.79 L43.95,0.79 C48.0844726,0.778050961 51.80527,3.29692766 53.33,7.14 L59.89,23.74" id="_Path_674"></path>
+                <polyline id="_Path_675" points="100.06 39.37 19.51 39.37 19.51 109.88 115.68 109.88"></polyline>
+            </g>
+            <path d="M128.29,107.97 C109.08,83.63 108.78,51.45 108.65,37.67 L108.65,34.89 L110.08,32.58 C112.83,28.11 127.92,5.81 155.25,5.1 L156.55,5.1 C171.22,5.1 182.61,11.6 190.4,18.2" id="_Path_684" stroke="#847B42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M203.92,33.96 L203.92,36.81 C203.81,55.81 203.55,100.12 166.92,123.81 C163.781402,125.867313 160.11276,126.9686 156.36,126.98" id="_Path_685" stroke="#847B42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M194.11,37.72 C194.01,55.32 193.8,94.01 162.26,114.41 C158.64644,116.801233 153.95356,116.801233 150.34,114.41 C119.26,94.3 118.6,55.41 118.44,38.51 C119.74,36.4 132.44,16.51 155.44,15.89 C179.24,15.27 192.91,35.84 194.11,37.72 Z" id="_Path_686" stroke="#847B42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="_Rectangle_42" stroke="#847B42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="144.05" y="59.17" width="27.44" height="21.46" rx="3.21"></rect>
+            <path d="M146.78,59.15 L146.78,56.23 C146.78,50.1548678 151.704868,45.23 157.78,45.23 C163.855132,45.23 168.78,50.1548678 168.78,56.23 L168.78,59.15" id="_Path_687" stroke="#847B42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M154.24,70.97 L154.24,69.57 C154.24,67.6204348 155.820435,66.04 157.77,66.04 C159.719565,66.04 161.3,67.6204348 161.3,69.57 L161.3,70.97" id="_Path_688" stroke="#847B42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="_Path_689" stroke="#847B42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="89.75 93.07 37.98 93.07 37.98 80.77 89.75 80.77 89.75 68.47 37.98 68.47 37.98 56.17 89.75 56.17"></polyline>
+        </g>
+    </g>
+</svg>

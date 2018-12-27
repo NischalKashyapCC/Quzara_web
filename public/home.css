@@ -43,7 +43,7 @@ body {
   background: #242424 !important;
 }
 .stat_icon {
-  width: 17%;
+  width: 30%;
 }
 .social_info {
   color: white;
@@ -1764,7 +1764,7 @@ footer {
 }
 
 .progressbar-text {
-  font-size: 56px;
+  font-size: 42px;
   color: #fff !important;
 }
 .custom-box .progressbar-text {

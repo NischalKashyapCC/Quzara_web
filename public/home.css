@@ -165,9 +165,7 @@ body {
   text-align: center;
   margin: 0px auto;
 }
-/* #contact {
-  background-color: #000000;
-} */
+
 .border-right {
   border-right: 2px solid #ffffff;
 }
@@ -208,7 +206,7 @@ button:hover:after {
 button:focus {
   outline: 0 !important;
 } */
-button {
+.glow-button {
   background-color: #f86d18;
   border: none;
   color: #fff;
@@ -230,14 +228,14 @@ button {
   padding-left: 2em;
   padding-right: 2em;
 }
-button {
+.glow-button {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-button:after {
+.glow-button:after {
   content: '>';
   position: absolute;
   opacity: 0;
@@ -246,14 +244,14 @@ button:after {
   transition: 0.5s;
 }
 
-button:hover {
+.glow-button:hover {
   padding-right: 24px;
   padding-left: 8px;
 }
-button:focus {
+.glow-button:focus {
   outline: 0 !important;
 }
-button:hover:after {
+.glow-button:hover:after {
   opacity: 1;
   right: 10px;
 }
@@ -312,6 +310,7 @@ button:hover:after {
 .seconds {
   font-size: 20px !important;
   color: #242424;
+  font-weight: bold;
 }
 
 .logo {
@@ -345,7 +344,8 @@ button:hover:after {
 .vertical-text {
   position: absolute;
   transform: rotateZ(-90deg);
-  right: -85px;
+  /* right: -85px; */
+  right: -97px;
   top: 78px;
   width: 221px;
   text-align: center;
@@ -444,7 +444,7 @@ button:hover:after {
   bottom: 7rem;
   height: auto;
   z-index: 12;
-  background-color: #242424;
+  background-color: #454343;
   line-height: 35px;
 }
 
@@ -962,6 +962,7 @@ button:hover:after {
   margin-bottom: 0;
   text-align: center;
   color: #000000;
+  font-weight: bold;
 }
 .count-text_progress {
   font-size: 1rem;
@@ -1104,7 +1105,7 @@ button:hover:after {
 }
 
 .fs {
-  font-size: 58px !important;
+  font-size: 45px !important;
   font-weight: bold;
   color: #ffffff;
 }
@@ -1112,7 +1113,9 @@ button:hover:after {
 .brdr {
   border-top: 5px solid #f15a29;
 }
-
+.brdr-tp {
+  border-top: 2px solid #ffffff;
+}
 .line {
   background-color: #ffffff !important;
 }
@@ -1493,7 +1496,7 @@ footer {
 .info {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 26px !important;
+  font-size: 16px !important;
   font-weight: 400;
   line-height: 45px;
   font-style: normal;
@@ -1503,11 +1506,6 @@ footer {
 .learn {
   background-color: #ffa809;
   text-align: center;
-}
-
-.seconds {
-  font-size: 20px !important;
-  color: #242424;
 }
 
 .logo {

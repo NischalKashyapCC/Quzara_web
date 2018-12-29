@@ -5,292 +5,753 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://www.quzara.com/wp-content/uploads/2017/05/cropped-favicon-32x32.png">
+    <link rel="icon" href="https://www.quzara.com/wp-content/uploads/2017/05/cropped-favicon-192x192.png">
+    <link rel="apple-touch-icon-precomposed" href="https://www.quzara.com/wp-content/uploads/2017/05/cropped-favicon-180x180.png">
+    <meta name="msapplication-TileImage" content="https://www.quzara.com/wp-content/uploads/2017/05/cropped-favicon-270x270.png">
     <title>Quzara</title>
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="home.css">
+    <style>
+
+
+
+        @font-face {
+    font-family: 'bodonixtregular';
+    src: url('/fonts/bodonixt-webfont.woff2') format('woff2'),
+         url('/fonts/bodonixt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+        body,.network-centric, .cybersecurity,.company-description,.social,.left-subheading {
+            font-family:'bodonixtregular' !important;
+        }
+        .left-heading {
+            font-family: 'bodonixtregular'!important;
+            font-weight: bold!important;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid first p-0">
 
-        <div class="seconday-options ml-auto w-100">
-            <ul class="list-unstyled float-right">
-                <li class="d-inline-block px-2"><a href="index1.html">Sample1</a></li>
-                <li class="d-inline-block px-2"><a href="index2.html">Sample2</a></li>
-                <li class="d-inline-block px-2"><a href="index3.html">Sample3</a></li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-        <a href="index.html"> <img class="logo" src="https://www.quzara.com/wp-content/uploads/2017/05/Quzara_logo.png"
-                alt=""></a>
-        <nav class="navbar navbar-expand-md navbar-light justify-content-end ">
-            <!-- <a class="navbar-brand pb-2" href="#">Navbar</a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="clearfix top-nav">
+            <div class="float-left">
+                <a href="index.html"> <img class="logo pl-4" src="quzara_logo.svg" alt=""></a>
+            </div>
+            <div>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto c-navbar">
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            SERVICES
 
-                            <img class="chev-down" src="down-chevron.svg" alt="">
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <!-- <li><a class="dropdown-item size" href="#">
+                <nav class="navbar navbar-expand-lg navbar-light ml-auto py-3">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav  py-1 ml-auto">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    SERVICES
+
+                                    <img class="chev-down" src="down-chevron.svg" alt="">
                                 </a>
-                            </li> -->
-                            <!-- </ul> -->
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                                    </a>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Application
+                                    Security <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">Technical Assessment</a></li>
+                                    <li><a class="dropdown-item size" href="#">DevSecOps</a></li>
+                                </ul>
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Cloud Security
+                                    <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">AWS Cloud Security </a></li>
+                                    <li><a class="dropdown-item size" href="#">Azure Cloud Security </a></li>
+                                </ul>
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Security
+                                    Architecture &
+                                    Engineering
+                                    <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">Application Security </a></li>
+                                    <li><a class="dropdown-item size" href="#">Cloud Security Architecture</a></li>
+                                    <li><a class="dropdown-item size" href="#">Endpoint Security </a></li>
+                                </ul>
+                            <li class="dropdown-submenu"><a class="dropdown-item size" href="#">FedRAMP
+
+                                    Advisory
+                                    Services <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">FedRAMP Assessment</a></li>
+                                    <li><a class="dropdown-item size" href="#">FedRAMP Documentation</a></li>
+                                    <li><a class="dropdown-item size" href="#">FedRAMP Security Architecture </a></li>
+                                </ul>
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">FISMA
+                                    Assessment
+                                    Services <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">FISMA Services</a></li>
+                                </ul>
+
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">SIEM
+                                    Integration <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">Splunk SIEM</a></li>
+                                    <li><a class="dropdown-item size" href="#">Cloud Security Monitoring</a></li>
+                                    <li><a class="dropdown-item size" href="#">Splunk Machine Learning </a></li>
+                                </ul>
+
+                            <li class="dropdown-submenu"><a class="dropdown-item size" href="#">Vulnerability &
+                                    Risk
+                                    Management <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">Penetration Testing</a></li>
+                                    <li><a class="dropdown-item size" href="#">Vulnerability Management</a></li>
+                                    <li><a class="dropdown-item size" href="#">Security Tooling Build </a></li>
+                                    <li><a class="dropdown-item size" href="#">Application security </a></li>
+                                </ul>
+
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Governance Risk
+                                    &
+                                    Compilance <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">Health Services</a></li>
+                                    <li><a class="dropdown-item size" href="#">Security program strategy</a></li>
+                                </ul>
+
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Security
+                                    Training <img class="chev-down" src="down-chevron.svg" alt=""></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">FedRAMP Training</a></li>
+                                </ul>
+
+                            <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Managed
+                                    Security
+                                    Services <img class="chev-down" src="down-chevron.svg" alt=""> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item size" href="#">Co-managed SIEM & Security
+                                            Monitoring</a></li>
+                                    <li><a class="dropdown-item size" href="#">Managed Detection & Response</a></li>
+                                    <li><a class="dropdown-item size" href="#">Managed Vulnerability Scanning</a></li>
+                                    <li><a class="dropdown-item size" href="#">Managed Endpoint Protection Platform</a></li>
+                                </ul>
+
+                            </li>
+                            </li>
+                            </li>
+                            </li>
+                            </li>
+                            </li>
+                            </li>
+                            </li>
+                            </li>
+
+                            </li>
+                        </ul>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                SOLUTIONS
+
+                                <img class="chev-down" src="down-chevron.svg" alt="">
                             </a>
-                    </li>
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Application
-                            Security <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">Technical Assessment</a></li>
-                            <li><a class="dropdown-item size" href="#">DevSecOps</a></li>
-                        </ul>
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Cloud Security <img class="chev-down"
-                                src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">AWS Cloud Security </a></li>
-                            <li><a class="dropdown-item size" href="#">Azure Cloud Security </a></li>
-                        </ul>
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Security
-                            Architecture &
-                            Engineering
-                            <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">Application Security </a></li>
-                            <li><a class="dropdown-item size" href="#">Cloud Security Architecture</a></li>
-                            <li><a class="dropdown-item size" href="#">Endpoint Security </a></li>
-                        </ul>
-                    <li class="dropdown-submenu"><a class="dropdown-item size" href="#">FedRAMP
-
-                            Advisory
-                            Services <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">FedRAMP Assessment</a></li>
-                            <li><a class="dropdown-item size" href="#">FedRAMP Documentation</a></li>
-                            <li><a class="dropdown-item size" href="#">FedRAMP Security Architecture </a></li>
-                        </ul>
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">FISMA
-                            Assessment
-                            Services <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">FISMA Services</a></li>
-                        </ul>
-
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">SIEM
-                            Integration <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">Splunk SIEM</a></li>
-                            <li><a class="dropdown-item size" href="#">Cloud Security Monitoring</a></li>
-                            <li><a class="dropdown-item size" href="#">Splunk Machine Learning </a></li>
-                        </ul>
-
-                    <li class="dropdown-submenu"><a class="dropdown-item size" href="#">Vulnerability &
-                            Risk
-                            Management <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">Penetration Testing</a></li>
-                            <li><a class="dropdown-item size" href="#">Vulnerability Management</a></li>
-                            <li><a class="dropdown-item size" href="#">Security Tooling Build </a></li>
-                            <li><a class="dropdown-item size" href="#">Application security </a></li>
-                        </ul>
-
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Governance Risk
-                            &
-                            Compilance <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">Health Services</a></li>
-                            <li><a class="dropdown-item size" href="#">Security program strategy</a></li>
-                        </ul>
-
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Security
-                            Training <img class="chev-down" src="down-chevron.svg" alt=""></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">FedRAMP Training</a></li>
-                        </ul>
-
-                    <li class="dropdown-submenu"><a class="dropdown-item size " href="#">Managed
-                            Security
-                            Services <img class="chev-down" src="down-chevron.svg" alt=""> </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item size" href="#">Co-managed SIEM & Security Monitoring</a></li>
-                            <li><a class="dropdown-item size" href="#">Managed Detection & Response</a></li>
-                            <li><a class="dropdown-item size" href="#">Managed Vulnerability Scanning</a></li>
-                            <li><a class="dropdown-item size" href="#">Managed Endpoint Protection Platform</a></li>
-                        </ul>
 
 
-
-                        <!-- <ul class="dropdown-menu">
-                        <li><a class="dropdown-item size" href="#">Submenu</a></li>
-                        <li><a class="dropdown-item size" href="#">Submenu0</a></li>
-                        <li class="dropdown-submenu"><a class="dropdown-item size dropdown-toggle" href="#">Submenu 1</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item size" href="#">Subsubmenu1</a></li>
-                                <li><a class="dropdown-item size" href="#">Subsubmenu1</a></li>
+                            <ul class="dropdown-menu remove" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item size" href="#">Identity & Access Management</a></li>
+                                <li><a class="dropdown-item size" href="#">Cloud Security</a></li>
+                                <li><a class="dropdown-item size" href="#">Enterprise Security Architecture</a></li>
+                                <li><a class="dropdown-item size" href="#">Application Security MDR</a></li>
+                                <li><a class="dropdown-item size" href="#">FedRAMP Managed Cloud </a></li>
+                                <li><a class="dropdown-item size" href="#">AWS Engineering</a></li>
+                                <li><a class="dropdown-item size" href="#">Compliance Services</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown-submenu"><a class="dropdown-item size dropdown-toggle" href="#">Submenu 2</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item size" href="#">Subsubmenu2</a></li>
-                                <li><a class="dropdown-item size" href="#">Subsubmenu2</a></li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                TECHNOLOGY
+
+                                <img class="chev-down" src="down-chevron.svg" alt="">
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                                <li><a class="dropdown-item size" href="#">Managed Services </a></li>
+                                <li><a class="dropdown-item size" href="#">Technology Vendors</a></li>
                             </ul>
                         </li>
-                    </ul> -->
-                    </li>
-                    </li>
-                    </li>
-                    </li>
-                    </li>
-                    </li>
-                    </li>
-                    </li>
-                    </li>
 
-                    </li>
-                </ul>
+                        <ul class="navbar-nav c-navbar">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    RESOURCES
 
-                <!-- Services -->
+                                    <img class="chev-down" src="down-chevron.svg" alt="">
+                                </a>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        SOLUTIONS
-
-                        <img class="chev-down" src="down-chevron.svg" alt="">
-                    </a>
-
-                    <ul class="dropdown-menu remove" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item size" href="#">Identity & Access Management</a></li>
-                        <li><a class="dropdown-item size" href="#">Cloud Security</a></li>
-                        <li><a class="dropdown-item size" href="#">Enterprise Security Architecture</a></li>
-                        <li><a class="dropdown-item size" href="#">Application Security MDR</a></li>
-                        <li><a class="dropdown-item size" href="#">FedRAMP Managed Cloud </a></li>
-                        <li><a class="dropdown-item size" href="#">AWS Engineering</a></li>
-                        <li><a class="dropdown-item size" href="#">Compliance Services</a></li>
-                    </ul>
-                </li>
+                                <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                                    <li><a class="dropdown-item size" href="#">Brochures</a></li>
+                                    <li><a class="dropdown-item size" href="#">Resource Library</a></li>
+                                </ul>
+                            </li>
 
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        TECHNOLOGY
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    CAREERS
 
-                        <img class="chev-down" src="down-chevron.svg" alt="">
-                    </a>
+                                    <img class="chev-down" src="down-chevron.svg" alt="">
+                                </a>
 
-                    <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                        <li><a class="dropdown-item size" href="#">Managed Services </a></li>
-                        <li><a class="dropdown-item size" href="#">Technology Vendors</a></li>
-                    </ul>
-                </li>
+                                <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                                    <li><a class="dropdown-item size" href="#">Benifits</a></li>
+                                    <li><a class="dropdown-item size" href="#">Culture</a></li>
+                                    <li><a class="dropdown-item size" href="#">Job Listing</a></li>
+                                </ul>
+                            </li>
 
-                <!-- Technology -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    ABOUT US
+                                    <img class="chev-down" src="down-chevron.svg" alt="">
+                                </a>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link " href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        RESOURCES
+                                <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
+                                    <li><a class="dropdown-item size" href="#">Appsec.ai</a></li>
+                                    <li><a class="dropdown-item size" href="#">FedRAMPCompliance.com</a></li>
+                                    <li><a class="dropdown-item size" href="#">Twitter Feeds</a></li>
+                                    <li><a class="dropdown-item size" href="#">Company Overview</a></li>
+                                </ul>
+                            </li>
 
-                        <img class="chev-down" src="down-chevron.svg" alt="">
-                    </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link ">CONTACT US</a>
+                            </li>
 
-                    <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                        <li><a class="dropdown-item size" href="#">Brochures</a></li>
-                        <li><a class="dropdown-item size" href="#">Resource Library</a></li>
-                    </ul>
-                </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    LANGUAGES
 
-                <!-- Resources -->
+                                    <img class="chev-down" src="down-chevron.svg" alt="">
+                                </a>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        CAREERS
-
-                        <img class="chev-down" src="down-chevron.svg" alt="">
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                        <li><a class="dropdown-item size" href="#">Benifits</a></li>
-                        <li><a class="dropdown-item size" href="#">Culture</a></li>
-                        <li><a class="dropdown-item size" href="#">Job Listing</a></li>
-                    </ul>
-                </li>
-
-                <!-- careers -->
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link " href="http://example.com" id="DropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        ABOUT US
-                        <img class="chev-down" src="down-chevron.svg" alt="">
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                        <li><a class="dropdown-item size" href="#">Appsec.ai</a></li>
-                        <li><a class="dropdown-item size" href="#">FedRAMPCompliance.com</a></li>
-                        <li><a class="dropdown-item size" href="#">Twitter Feeds</a></li>
-                        <li><a class="dropdown-item size" href="#">Company Overview</a></li>
-                    </ul>
-                </li>
-
-                <!-- About us -->
+                                <ul class="dropdown-menu" aria-labelledby="DropdownMenuLink" style="border:none">
+                                    <li class="d-inline-block px-4 trn"><a href="index1.html">English</a></li>
+                                    <li class="d-inline-block px-4"><a href="index2.html">Spanish</a></li>
+                                    <li class="d-inline-block px-4"><a href="index3.html">Japanese</a></li>
 
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link ">CONTACT US</a>
-                </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
 
+            </div>
+            </nav>
+        </div>
+    </div>
 
-                </ul>
+    <video autoplay loop id="video-background" muted plays-inline>
+        <source src="./bg_video.mp4" type="video/mp4">
+    </video>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="about">
+
+            <div>
+                Contact Us for Readiness and <br>
+                <span>Compliance services.</span><br>
+                <div class="text-underline py-2"> 1.800.218.8528</div><br>
+                <span class="underline">Learn more</span>
             </div>
 
-        </nav>
+            <div class="vertical-text" id="contact">
+                CONTACT US
+            </div>
+        </a>
+    </div>
+
+    <div class="display-table">
+
+        <div class="display-table-cell v-align">
+            <div class="threat-info">
+                <div class=" text-left">
+                    <p class="left-heading text-center mt-3">HOW DO YOU <span class="color-font">MANAGE</span> YOUR
+                        <span class="color-font">CYBER RISK?</span>
+                    </p>
+                    <p class="left-subheading w-50"> Explore our ai, analytics and technology solutions</p>
 
 
+                    <div class="text-center mt-5 mr-3">
 
+                        <!-- <button type="button" class="btn request btn-outline-danger">GET IN TOUCH NOW</button> -->
+                        <!-- <button class="button glow-button">GET IN TOUCH NOW</button> -->
+                        <button class="glow-button"><span>REQUEST A CONSULTATION</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-    <video autoplay loop id="video-background" muted plays-inline>
-        <source src="Video_3.mp4" type="video/mp4">
-    </video>
-    <div class="display-table">
-        <div class="display-table-cell v-align">
-            <div class="main-content align-self-center">
-                <div class="css-typing">
-                    <p class="first-heading">PROVIDING <span class="stresscolor">STRATEGIC</span>
-                    </p>
-                    <p class="first-heading">AND
-                    </p>
-                    <p class="first-heading">TACTICAL <span class="stresscolor">LEADERSHIP</span>
-                    </p>
+
+    <section class="center">
+        <!-- <div id="particles-js1"></div> -->
+        <!-- <h3 class="text-center network-centric py-4">KEY <span class="color-font">STATS</span></h3> -->
+        <div class="py-5 px-0  center">
+            <div class="container mx-auto row pb-5 px-0">
+                <div class="col-md-3 pb-4 pl-0">
+                    <div class=" white-bg h-100 p-3">
+                        <div class="counter col_fourth text-center">
+                            <!-- <i class="fa fa-code fa-2x pb-4"></i> -->
+                            <div>
+                                <img class="stat_icon" src="./group_breaches.svg" alt="">
+                            </div>
+                            <h2 class="timer count-title count-number" data-to="1038130252" data-speed="1500">0</h2>
+                            <p class="count-text pt-4">Breaches made in 2018</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pb-4 pl-0 ">
+                    <div class=" white-bg h-100 p-3">
+                        <div class="counter col_fourth text-center white-bg">
+                            <div>
+                                <img src="./group_two.svg" class="stat_icon" alt="">
+                            </div>
+                            <h2 class="timer count-title count-number" data-to="39" data-speed="1500">0 </h2><span
+                                class="seconds">sec</span>
+                            <p class="count-text pt-4">Time between a significant data breach </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pb-4 pl-0">
+                    <div class=" white-bg h-100 p-3">
+                        <div class="counter col_fourth text-center white-bg">
+                            <div>
+                                <img class="stat_icon" src="./group_avg_time.svg" alt="">
+                            </div>
+                            <h2 class="timer count-title count-number" data-to="191" data-speed="1500">0</h2>
+                            <span class="seconds">days</span>
+                            <p class="count-text pt-4">The average length of time it takes to identity a data breach</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pb-4 pl-0 ">
+                    <div class=" white-bg h-100 p-3">
+                        <div class="counter col_fourth end text-center white-bg">
+                            <div>
+                                <img src="./group_cost.svg" class="stat_icon" alt="">
+                            </div>
+                            <span class="seconds">$</span>
+                            <h2 class="timer count-title count-number decimal" data-to="3.86" data-speed="1500"> 0</h2>
+                            <span class="seconds">million</span>
+                            <p class="count-text pt-4">The average cost of a data breach</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brdr-tp"></div>
+            <div class="row mx-auto container pt-5">
+                <div class="col-md-4 pb-0">
+                    <div class=" h-100 p-3">
+                        <div class="progress" id="progress" value="95">
+                        </div>
+                        <p class="count-text_progress pt-4">95% of cybersecurity breaches are due to human error</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pb-0">
+                    <div class=" h-100 p-3">
+                        <div class="progress" id="progress1" value="38">
+                        </div>
+                        <p class="count-text_progress pt-4">38% of global organizations can handle sophisticated
+                            cyber attacks</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pb-0">
+                    <div class=" h-100 p-3">
+                        <div class="progress" id="progress2" value="43"></div>
+                        <p class="count-text_progress pt-4">43% of cyber-attacks target small businesses</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="py-3 border-btm optiv-card card">
+        <h3 class="text-center  cybersecurity py-4">
+            <span class="color-font">CYBER SECURITY</span> SOLUTIONS
+        </h3>
+        <div class="optiv-card card">
+            <div class="container px-0">
+                <div class="row w-100 mx-auto text-center">
+                    <div class="col-md-3 mb-4 pl-0">
+                        <div class="submain-card-a card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa" alt="">
+                                    <img src="./group_cloud_security.svg">
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <p class="card-title text-center">Cloud Security</p>
+                                <p class="card-text text-center"> We perform Cloud Risk Assessments, design Cloud
+                                    Security Controls and help you stay
+                                    compliant in the cloud.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-4 pl-0">
+                        <div class="submain-card-d card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa" alt="">
+                                    <img src="./group_application_security.svg">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Application Security</h5>
+                                <p class="card-text text-center">Let our team of experts perform Source Code Reviews,
+                                    Dynamic Scans and help you meet
+                                    OWASP Controls and beyond.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 mb-4 pl-0">
+                        <div class="submain-card-c card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa " alt="">
+                                    <img class="custom_icon" src="./group_managed_security_services.svg">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Managed Security Services</h5>
+                                <p class="card-text text-center">Our Cybertorch™ Platform enables companies to scan,
+                                    monitor and investigate security events
+                                    to protect assets and Web Applications.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-4 px-0">
+                        <div class="submain-card-d card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa" alt="">
+                                    <img src="./group_fedramp.svg">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">FedRAMP Services</h5>
+                                <p class="card-text text-center">Deep Advisory expertise for FedRAMP Security
+                                    architecture, Engineering and controls
+                                    documentation. We accelerate your journey to FedRAMP.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 mb-4 pl-0">
+                        <div class="submain-card-a card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa" alt="">
+                                    <img class="custom_icon" src="./Group_security_architecture.svg">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title text-center">Security Architecture</p>
+                                <p class="card-text text-center"> Need a Security Architect for a project? Or, need
+                                    Certified Architects on AWS or Azure? We
+                                    have you covered.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-4 pl-0">
+                        <div class="submain-card-c card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa" alt="">
+                                    <img class="custom_icon" src="./group_vulnerability_management.svg"> </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Vulnerability Management</h5>
+                                <p class="card-text text-center">We identify, triage and prioritize vulnerabilities
+                                    leveraging our Cybertorch™ Platform and
+                                    ecosystem of security tools. We also perform Penetration studies.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3 mb-4 pl-0">
+                        <div class="submain-card-c card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa" alt="">
+                                    <img src="./_Group_risk_assesment.svg"> </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Risk Assessment</h5>
+                                <p class="card-text text-center">Whether you’re building software or deploying
+                                    solutions, leverage our threat modeling and deep
+                                    Compliance expertise to identify and mitigate risk.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4 px-0">
+                        <div class="submain-card-d card cursor-pointer">
+                            <div class="icon text-center m-2 p-1">
+                                <div class="card-fa" alt="">
+                                    <img class="custom_icon" src="./GROUP_VIRTUAL_CISO.svg"> </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Virtual CISO</h5>
+                                <p class="card-text text-center">Get immediate access to a Senior Executive Officer to
+                                    help align security efforts, cyber risk and
+                                    business goals for your organization.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <hr class="border-btm">
+
+    <section class="py-5 border-btm">
+        <div class="container ">
+            <h2 class="company-description foot">"OUR SERVICE AND PARTNER <span class="color-font">SOLUTIONS PROTECT</span>
+                COMPANIES WORLDWIDE."</h2>
+            <div class="container-fliud pt-5 ">
+                <section class="customer-logos slider">
+                    <div class="slide"><img src="./Icon_1.png"></div>
+                    <div class="slide"><img src="./Icon_2.png"></div>
+                    <div class="slide"><img src="./Icon_3.png"></div>
+                    <div class="slide"><img src="./Icon_4.png"></div>
+                    <div class="slide"><img src="./Icon_5.png"></div>
+                    <div class="slide"><img src="./Icon_6.png"></div>
+                    <div class="slide"><img src="./Icon_7.png"></div>
+                    <div class="slide"><img src="./icon_8.png"></div>
+                    <div class="slide"><img src="./icon_11.png"></div>
+                    <div class="slide"><img src="./icon_12.png"></div>
+                    <div class="slide"><img src="./icon_13.png"></div>
+                    <div class="slide"><img src="./icon_14.png"></div>
+                    <div class="slide"><img src="./icon_15.png"></div>
+                    <div class="slide"><img src="./icon_16.png"></div>
+                    <div class="slide"><img src="./icon_17.png"></div>
+                    <div class="slide"><img src="./icon_18.png"></div>
+                    <div class="slide"><img src="./icon_19.png"></div>
+                    <div class="slide"><img src="./icon_20.png"></div>
+                    <div class="slide"><img src="./icon_21.png"></div>
+                    <div class="slide"><img src="./icon_22.png"></div>
+                    <div class="slide"><img src="./icon_23.png"></div>
+                    <div class="slide"><img src="./icon_24.png"></div>
+                    <div class="slide"><img src="./icon_25.png"></div>
+                    <div class="slide"><img src="./icon_26.png"></div>
+                    <div class="slide"><img src="./icon_27.png"></div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid before-footer py-4">
+        <h3 class="text-center pb-4 social">RECENT <span class="color-font">NEWS</span></h3>
+        <div class="row px-2">
+            <div class="col-sm-12 col-md-4">
+                <h3 class="text-center social"> <img src="twitter.svg" style="width: 70px;height: 70px;" alt=""></h3>
+
+                <a class="twitter-timeline" data-height="350" href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A
+                    Twitter List by TwitterDev</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-sm-12 col-md-4 ">
+                <h3 class="text-center social"><img src="newsroom.png" style="width: 150px;height: 70px;" alt=""></h3>
+
+                <p class="px-3 feed-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    ligula eget
+                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 ">
+                <h3 class="text-center social"><img src="crn.png" style="width: 150px;height: 70px;" alt=""></h3>
+
+                <p class="px-3 feed-text no-border">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo
+                    ligula eget
+                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="particles-js"></div>
+        <div class="particle-card  container-fliud particle-foot ">
+            <!-- <div class="company-contact foot-font">
+                    Find out how Quzara's unique approach can protect your enterprise or industrial from cyber threat.
+                </div> -->
+
+            <div class="container-fluid foot-font m-2">
+
+                <div class="col-12 row px-0 mx-0 py-1">
+                    <div class="col-md-4 col-sm-12 text-left">
+
+                        <h1 class="mt-4 fs">Know us Better!</h1>
+                        <div class="info w-75 py-2">
+                            Providing customized, innovative and valuable Information <br>
+                            Security solutions that enable
+                            commercial and <br>
+                            federal organizations to successfully achieve their <br>
+                            security and business
+                            goals.
+                        </div>
+                        <!-- <form>
+                                <div class="form-row py-4 px-4">
+                                    <div class="col">
+                                    <input type="text" class="form-control" placeholder=" Name">
+                                    </div>
+                                    <div class="col">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </form>
+    
+                            <button type="button" class="btn btn-danger submit mx-4 my-4">Submit</button> -->
+
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <h1 class="mt-4 fs">Office</h1>
+                        <div class="info text-right w-75 py-2">
+                            12110 Sunset Hills Road
+                            Suite 600,Reston, VA, 20190 <br>
+                            info@quzara.com <br>
+                            Phone: + 1-800-218-8528
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-12">
+
+                        <div class="float-right w-75 mx-auto">
+                            <h3 class="mt-4 fs ">Social</h3>
+                            <div class="info  w-75 py-2">
+                                <a href="https://www.facebook.com/quzara.llc/" class="fa media fa-facebook"></a>
+                                <a href=" https://twitter.com/quzaratech " class="fa media fa-twitter"></a>
+                                <!-- <a href="#" class="fa media fa-google"></a> -->
+                                <a href="https://www.linkedin.com/company/quzara/about/ " class="fa media fa-linkedin"></a>
+                                <a href=" https://www.linkedin.com/company/fedrampcompliance-com/about/ " class="fa media fa-linkedin"></a>
+                            </div>
+
+                            <span>
+                                <p class="social_info">
+                                    General: info@quzara.com <br>
+                                    sales: sales@quzara.com <br>
+                                    jobs: hr@quzara.com
+                                </p>
+                            </span>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
-        </div>
-    </div>
-    <!-- </div> -->
 
+        </div>
+
+        <div class="container-fluid last-foot">
+            <div class="col-12 px-0 mx-0">
+                <div class="row">
+                    <!-- <div class="col-7">
+    
+                            <a href="https://www.facebook.com/quzara.llc/" class="fa media fa-facebook"></a>
+                            <a href=" https://twitter.com/quzaratech " class="fa media fa-twitter"></a>
+                            <a href="#" class="fa media fa-google"></a>
+                            <a href="https://www.linkedin.com/company/quzara/about/ " class="fa media fa-linkedin"></a>
+    
+                        </div> -->
+
+                    <div class="col float-right brdr">
+
+                        <p class="copyright text-right">Copyright @ Quzara LLC2019</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <script src="progressbar.js"></script>
+    <script src="particles.js"></script>
+    <script src="custom.js"></script>
 
 </body>
 

@@ -99,7 +99,7 @@ body {
   overflow: hidden;
   line-height: 48px;
   text-align: center;
-  background: #ffaf3a;
+  background: #fcaf3a;
   border: none;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -138,7 +138,7 @@ body {
 }
 
 .Contact {
-  color: #ffaf3a !important;
+  color: #fcaf3a !important;
 }
 
 .remove {
@@ -156,7 +156,7 @@ body {
   text-align: center;
   padding: 15px 40px;
   border: none !important;
-  background: #ffaf3a;
+  background: #fcaf3a;
   border-width: 7px !important;
   border-color: #f4af00;
   border-radius: 38px;
@@ -164,7 +164,7 @@ body {
   font-size: 26px;
   font-weight: bold !important;
   text-transform: uppercase !important;
-  background-color: #ffaf3a;
+  background-color: #fcaf3a;
   transition: background-color 300ms ease 0ms, letter-spacing 300ms ease 0ms;
   box-shadow: 0 2px 49px 18px rgba(237, 126, 0, 0.52);
   cursor: pointer;
@@ -175,7 +175,7 @@ body {
 
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0px 4px 12px 6px #ffaf3a;
+  box-shadow: 0px 4px 12px 6px #fcaf3a;
   background: #f99500 !important;
   letter-spacing: 3px;
   padding-left: 3em;
@@ -212,14 +212,14 @@ body {
 }
 
 .request {
-  background: #ffaf3a;
-  border-color: #ffaf3a;
+  background: #fcaf3a;
+  border-color: #fcaf3a;
   color: #fff;
 }
 
 .request:hover {
   background: none;
-  border-color: #ffaf3ac9;
+  border-color: #fcaf3ac9;
 }
 
 .c-navbar .dropdown-menu {
@@ -231,8 +231,8 @@ body {
 .btn-outline-danger:hover,
 .btn-outline-danger:active,
 .btn-outline-danger:visited {
-  background: #ffaf3a;
-  border-color: #ffaf3a;
+  background: #fcaf3a;
+  border-color: #fcaf3a;
   color: #fff;
 }
 
@@ -299,7 +299,7 @@ body {
   top: 78px;
   width: 221px;
   text-align: center;
-  background-color: #ffaf3a;
+  background-color: #000;
 }
 
 #video-background {
@@ -376,6 +376,7 @@ body {
   width: 470px;
   text-decoration: none;
   font-size: 25px;
+  font-weight: bold;
   color: white;
   border-radius: 0 5px 5px 0;
   z-index: 12;
@@ -483,12 +484,12 @@ body {
   margin-bottom: 20px;
   border-radius: 50%;
   color: #fff;
-  background-color: #ffaf3a;
+  background-color: #fcaf3a;
 }
 
 .card-fa {
   font-size: 2rem;
-  color: #ffaf3a;
+  color: #fcaf3a;
   text-align: center;
   background: #fff;
   border-radius: 50%;
@@ -600,7 +601,7 @@ body {
 .card-title {
   font-weight: bold;
   font-size: 1rem !important;
-  color: #ffaf3a;
+  color: #fcaf3a;
 }
 
 .fa {
@@ -662,7 +663,7 @@ body {
 }
 
 .border-btm {
-  border-bottom: 3px solid #ffaf3a;
+  border-bottom: 3px solid #fcaf3a;
 }
 
 @media (min-width: 992px) {
@@ -928,7 +929,7 @@ body {
   margin: 0 auto;
   float: none;
   display: table;
-  color: #ffaf3ac9;
+  color: #fcaf3ac9;
 }
 
 /* client sider */
@@ -1062,7 +1063,7 @@ body {
 }
 
 .brdr {
-  border-top: 5px solid #ffaf3a;
+  border-top: 5px solid #fcaf3a;
 }
 
 .brdr-tp {
@@ -1084,7 +1085,7 @@ body {
 /* icons */
 
 .fa.media:hover {
-  color: #ffaf3a;
+  color: #fcaf3a;
 }
 
 .media {
@@ -1219,7 +1220,7 @@ footer {
   }
 
   .color-font {
-    color: #ffaf3ac9;
+    color: #fcaf3ac9;
   }
 
   .top-nav {
@@ -1313,9 +1314,9 @@ footer {
   .left-heading {
     font-size: 1.5rem !important;
   }
-.glow-button{
-  font-size: 14px;
-}
+  .glow-button {
+    font-size: 14px;
+  }
   .left-subheading {
     font-size: 1.3rem !important;
   }
@@ -1389,7 +1390,8 @@ footer {
 
 .left-heading {
   color: whitesmoke;
-  font-family: 'Open Sans', 'sans-serif';
+  /* font-family: 'Open Sans', 'sans-serif'; */
+  font-family: 'Fjalla One', sans-serif !important;
   font-size: 5rem;
   font-weight: normal;
   line-height: 1;
@@ -1447,7 +1449,7 @@ footer {
   margin: 0 auto;
   float: none;
   display: table;
-  color: #ffaf3ac9;
+  color: #FCAF3Ac9;
 } */
 
 /* client slider */

@@ -1311,11 +1311,13 @@ footer {
 
 @media (max-width: 425px) {
   .left-heading {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
-
+.glow-button{
+  font-size: 14px;
+}
   .left-subheading {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
   }
 
   .space {
@@ -1401,7 +1403,7 @@ footer {
   text-align: center;
   margin: 0px auto;
 }
-
+/* 
 @media screen and (max-width: 490px) {
   #about {
     width: 40% !important;
@@ -1446,7 +1448,7 @@ footer {
   float: none;
   display: table;
   color: #ffaf3ac9;
-}
+} */
 
 /* client slider */
 

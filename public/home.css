@@ -22,7 +22,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+.navbar-nav li:hover>ul.dropdown-menu {
   display: block;
 }
 
@@ -57,12 +57,12 @@ body {
   position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu > li > a:hover:after {
+.dropdown-menu>li>a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
@@ -75,7 +75,7 @@ body {
   border-radius: 0;
   padding-bottom: 25px;
   font-size: 24px;
-  width: 60%;
+  /* width: 60%; */
 }
 
 .form-control:focus {
@@ -384,7 +384,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a > div {
+#mySidenav a>div {
   padding: 15px;
 }
 
@@ -1057,9 +1057,11 @@ body {
   z-index: 1;
   position: relative;
 }
+
 .caps {
   font-weight: bold;
 }
+
 .fs {
   font-size: 45px !important;
   font-weight: bold;
@@ -1069,30 +1071,37 @@ body {
 .brdr {
   border-top: 5px solid #fcaf3a;
 }
+
 .form-brdr {
   border: 1px solid grey;
   border: 1px solid grey;
   font-size: 13px;
   padding: 10px;
 }
+
 .para {
   margin-top: 8rem;
 }
+
 .about-us-contents {
   margin-top: 130px !important;
 }
+
 .aboutus-btn {
   background-color: #fcaf3a;
   border: none !important;
 }
+
 .about-us-image {
   width: 100%;
   height: 80%;
 }
+
 .btn-secondary :hover {
   background-color: #fcaf3a !important;
   border: none !important;
 }
+
 .brdr-tp {
   border-top: 2px solid #ffffff;
 }
@@ -1152,9 +1161,10 @@ body {
 #particles-js,
 #particles-js1 {
   position: absolute;
-  height: 283px !important;
+  height: 370px !important;
   width: 100%;
-  background: rgba(33, 35, 35, 0.9) !important;
+  /* background: rgba(33, 35, 35, 0.9) !important; */
+  z-index: 1;
 }
 
 #particles-js1 {
@@ -1341,9 +1351,11 @@ footer {
   .left-heading {
     font-size: 1.5rem !important;
   }
+
   .glow-button {
     font-size: 14px;
   }
+
   .left-subheading {
     font-size: 1.3rem !important;
   }
@@ -1432,6 +1444,7 @@ footer {
   text-align: center;
   margin: 0px auto;
 }
+
 /* 
 @media screen and (max-width: 490px) {
   #about {
@@ -1557,28 +1570,28 @@ footer {
   color: #000000 !important;
 }
 
-.progress > svg {
+.progress>svg {
   width: 100%;
   display: block;
 }
 
-.progress > svg > path:first-child {
+.progress>svg>path:first-child {
   opacity: 0.1;
 }
 
-.progress > svg > path {
+.progress>svg>path {
   stroke: #ff6347;
 }
 
-#progress1 > svg > path {
+#progress1>svg>path {
   stroke: #00ff7f;
 }
 
-#progress2 > svg > path {
+#progress2>svg>path {
   stroke: #1e90ff;
 }
 
-#progress3 > svg > path {
+#progress3>svg>path {
   stroke: #f15a29;
   stroke-width: 10;
 }

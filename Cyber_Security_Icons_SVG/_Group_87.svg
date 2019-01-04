@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="94px" viewBox="0 0 72 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>_Group_87</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="_Group_87" transform="translate(1.000000, 1.000000)">
+            <path d="M34.14,0.63 C13.41,1.17 1.94,19.11 0.76,21.02 C0.91,36.21 1.51,71.32 29.53,89.44 C32.7802529,91.6009934 37.0097471,91.6009934 40.26,89.44 C68.7,71.05 68.89,36.17 68.98,20.3 C67.9,18.61 55.58,0.07 34.14,0.63 Z M51.59,57.7 C51.5845201,59.0452984 50.4952984,60.1345201 49.15,60.14 L24.44,60.14 C23.0924252,60.14 22,59.0475748 22,57.7 L22,40.87 C22,39.5224252 23.0924252,38.43 24.44,38.43 L49.15,38.43 C50.4975748,38.43 51.59,39.5224252 51.59,40.87 L51.59,57.7 Z" id="_Compound_Path_13" fill="#9ABFE2" fill-rule="nonzero"></path>
+            <rect id="_Rectangle_34" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="22" y="38.43" width="29.59" height="21.71" rx="3.21"></rect>
+            <path d="M24.94,38.41 L24.94,35.41 C24.94,29.2 30.26,24.15 36.79,24.15 C43.32,24.15 48.64,29.15 48.64,35.41 L48.64,38.41" id="_Path_379" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M32.98,50.37 L32.98,48.96 C33.0452594,46.9200963 34.7499862,45.3182796 36.79,45.38 C37.7704712,45.3476772 38.7234564,45.7071075 39.438374,46.3788673 C40.1532916,47.0506272 40.5712886,47.9794164 40.6,48.96 L40.6,50.37" id="_Path_380" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M68.98,20.3 C68.89,36.17 68.7,71.05 40.27,89.44 C37.0158324,91.6000742 32.7841676,91.6000742 29.53,89.44 C1.53,71.32 0.91,36.21 0.76,21.02 C1.94,19.11 13.4,1.17 34.14,0.63 C55.58,0.07 67.9,18.61 68.98,20.3 Z" id="_Path_381" stroke="#3B6D96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

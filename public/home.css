@@ -240,12 +240,14 @@ body {
   padding-bottom: 3px;
   padding-top: 3px;
   background-color: #ffffff;
+  top: 0;
 }
 
 .info {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 1rem !important;
+  /* font-size: 1rem !important; */
+  font-size: 20px;
   font-weight: 400;
   line-height: 25px;
   font-style: normal;
@@ -299,7 +301,7 @@ body {
   top: 78px;
   width: 221px;
   text-align: center;
-  background-color: #000;
+  background-color: #fcaf3a;
 }
 
 #video-background {
@@ -676,11 +678,11 @@ body {
     width: 33.3%;
   }
 
-  .social {
+  /* .social {
     text-align: center;
     font-weight: bold;
     font-family: 'Tungsten-Light';
-  }
+  } */
 }
 
 @-webkit-keyframes type {
@@ -1055,7 +1057,9 @@ body {
   z-index: 1;
   position: relative;
 }
-
+.caps {
+  font-weight: bold;
+}
 .fs {
   font-size: 45px !important;
   font-weight: bold;
@@ -1065,7 +1069,30 @@ body {
 .brdr {
   border-top: 5px solid #fcaf3a;
 }
-
+.form-brdr {
+  border: 1px solid grey;
+  border: 1px solid grey;
+  font-size: 13px;
+  padding: 10px;
+}
+.para {
+  margin-top: 8rem;
+}
+.about-us-contents {
+  margin-top: 130px !important;
+}
+.aboutus-btn {
+  background-color: #fcaf3a;
+  border: none !important;
+}
+.about-us-image {
+  width: 100%;
+  height: 80%;
+}
+.btn-secondary :hover {
+  background-color: #fcaf3a !important;
+  border: none !important;
+}
 .brdr-tp {
   border-top: 2px solid #ffffff;
 }
@@ -1153,11 +1180,11 @@ body {
   border: 0 !important;
 }
 
-.social {
+/* .social {
   font-size: 2.25em;
   font-family: 'Tungsten-Light';
   letter-spacing: 2px;
-}
+} */
 
 .before-footer {
   background: #f7f7f7;
@@ -1237,10 +1264,10 @@ footer {
     letter-spacing: 0.04em;
   }
 
-  .social {
+  /* .social {
     font-size: 2.25rem;
     letter-spacing: 0.04em;
-  }
+  } */
 
   .company-contact {
     font-size: 2rem;

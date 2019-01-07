@@ -1205,6 +1205,27 @@ body {
   z-index: 1;
 }
 
+.about-us-particle {
+  position: relative !important;
+  height: 430px !important;
+  background: rgba(33, 33, 35, 1) !important;
+}
+
+.about-us-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.about-us-content h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 #particles-js1 {
   height: 100% !important;
 }

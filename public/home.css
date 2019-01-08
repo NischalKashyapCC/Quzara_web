@@ -30,7 +30,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+.navbar-nav li:hover>ul.dropdown-menu {
   display: block;
 }
 
@@ -55,6 +55,7 @@ body {
   width: 50% !important;
   height: 85px;
 }
+
 .stat_icon_aboutus {
   width: 60% !important;
   height: 85px;
@@ -69,12 +70,12 @@ body {
   position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu > li > a:hover:after {
+.dropdown-menu>li>a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
@@ -396,7 +397,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a > div {
+#mySidenav a>div {
   padding: 15px;
 }
 
@@ -1134,18 +1135,20 @@ body {
 .technical_assesment_content {
   padding-top: 4rem;
 }
+
 .technical_assesment_left_content {
   position: absolute;
-  left: 17em;
+  left: 9em;
   line-height: 1;
 }
 
 .technical_assesment_right_content {
   position: absolute;
-  top: 50em;
+  bottom: 4em;
   line-height: 1;
-  right: 14em;
+  right: 7em;
 }
+
 .list {
   line-height: 40px;
 }
@@ -1153,13 +1156,16 @@ body {
 .our-values {
   padding-top: 5rem !important;
 }
+
 .value_color {
   color: #fcaf3a;
   font-size: 1.25rem;
 }
+
 .value_content {
   font-size: 0.9rem;
 }
+
 .btn-secondary :hover {
   background-color: #fcaf3a !important;
   border: none !important;
@@ -1664,28 +1670,28 @@ footer {
   color: #000000 !important;
 }
 
-.progress > svg {
+.progress>svg {
   width: 100%;
   display: block;
 }
 
-.progress > svg > path:first-child {
+.progress>svg>path:first-child {
   opacity: 0.1;
 }
 
-.progress > svg > path {
+.progress>svg>path {
   stroke: #ff6347;
 }
 
-#progress1 > svg > path {
+#progress1>svg>path {
   stroke: #00ff7f;
 }
 
-#progress2 > svg > path {
+#progress2>svg>path {
   stroke: #1e90ff;
 }
 
-#progress3 > svg > path {
+#progress3>svg>path {
   stroke: #f15a29;
   stroke-width: 10;
 }

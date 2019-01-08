@@ -36,7 +36,7 @@ body {
 
 .text-underline {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .underline {
@@ -53,6 +53,10 @@ body {
 
 .stat_icon {
   width: 50% !important;
+  height: 85px;
+}
+.stat_icon_aboutus {
+  width: 60% !important;
   height: 85px;
 }
 
@@ -381,15 +385,15 @@ body {
 
 #mySidenav a {
   left: -343px;
-    position: fixed;
-    transition: 0.3s;
-    width: 400px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    border-radius: 0 5px 5px 0;
-    z-index: 12;
+  position: fixed;
+  transition: 0.3s;
+  width: 400px;
+  text-decoration: none;
+  font-size: 18px;
+  /* font-weight: bold; */
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 12;
 }
 
 #mySidenav a > div {
@@ -601,7 +605,7 @@ body {
 
 .card-text {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .optiv-card {
@@ -1149,7 +1153,13 @@ body {
 .our-values {
   padding-top: 5rem !important;
 }
-
+.value_color {
+  color: #fcaf3a;
+  font-size: 1.25rem;
+}
+.value_content {
+  font-size: 0.9rem;
+}
 .btn-secondary :hover {
   background-color: #fcaf3a !important;
   border: none !important;

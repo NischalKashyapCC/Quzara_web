@@ -545,6 +545,7 @@ body {
   color: #fff;
 }
 
+
 .card-fa:hover {
   border-radius: 4px;
   transition: 0.2s ease-out;
@@ -1297,6 +1298,12 @@ footer {
 
   .left-subheading {
     font-size: 2.2rem;
+  }
+}
+
+@media(min-width: 1279px) {
+  .container-fixed {
+    max-width: 1200px;
   }
 }
 

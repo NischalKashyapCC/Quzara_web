@@ -611,6 +611,7 @@ body {
   font-weight: bold;
   font-size: 1.25rem !important;
   color: #fcaf3a;
+  height: 48px;
 }
 
 .fa {
@@ -1410,6 +1411,10 @@ footer {
 
   .company-contact {
     font-size: 1.8rem !important;
+  }
+
+  .card-title {
+    height: auto;
   }
 }
 

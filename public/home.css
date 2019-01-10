@@ -295,8 +295,39 @@ body {
   font-size: 0.9rem;
   color: #ffffff;
 }
-.font_size{
-  font-size: 0.9rem
+.aboutus_quzara {
+  font-size: 40px !important;
+}
+.aboutus_quzara {
+  position: relative;
+  line-height: 1.2em;
+}
+.aboutus_quzara:before {
+  position: absolute;
+
+  top: 1.2em;
+  height: 0;
+  width: 150px;
+  content: '';
+  border-bottom: 2px solid black;
+}
+.our_services {
+  font-size: 40px !important;
+  position: relative;
+  line-height: 1.2em;
+}
+.our_services:before {
+  position: absolute;
+
+  top: 1.2em;
+  height: 0;
+  width: 150px;
+  content: '';
+  border-bottom: 2px solid black;
+}
+.services_border {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 .size {
   font-size: 0.9rem;
@@ -392,7 +423,7 @@ body {
   transition: 0.3s;
   width: 400px;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 24px;
   /* font-weight: bold; */
   color: white;
   border-radius: 0 5px 5px 0;
@@ -541,7 +572,9 @@ body {
   right: 40px;
   opacity: unset;
 }
-
+.content-space {
+  padding-top: 80px;
+}
 .pindrop-notification__title {
   font-size: 24px;
 }
@@ -563,7 +596,9 @@ body {
   height: 100%;
   border: 0 !important;
 }
-
+.intelligence {
+  letter-spacing: 4px;
+}
 .submain-card-f {
   height: 100%;
   background: #232323;
@@ -908,6 +943,9 @@ body {
     border-radius: 0 5px 5px 0;
     z-index: 12;
   }
+  .media_logo {
+    width: 194px !important;
+  }
 }
 
 .counter {
@@ -1080,8 +1118,8 @@ body {
 }
 
 .fs {
-  font-size: 45px !important;
-  font-weight: bold;
+  font-size: 40px !important;
+  font-weight: normal;
   color: #ffffff;
 }
 
@@ -1102,8 +1140,8 @@ body {
 }
 
 .image {
-  border-top: 2px solid black;
-  text-align: center;
+  /* border-top: 2px solid black; */
+  text-align: right;
 }
 
 .content-border {
@@ -1117,13 +1155,35 @@ body {
 .about-us-contents {
   margin-top: 130px !important;
 }
-
+.about-quzara {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+}
 .aboutus-btn {
   background-color: #fcaf3a;
   border: none !important;
   padding: 16px 36px !important;
   cursor: pointer;
   font-size: 20px;
+  color: #fff;
+  text-align: center;
+  border: none !important;
+  border-radius: 28px;
+  letter-spacing: 2px;
+  transition: background-color 300ms ease 0ms, letter-spacing 300ms ease 0ms;
+  box-shadow: 0 2px 19px 6px rgba(237, 126, 0, 0.32);
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.targeted-btn {
+  background-color: #fcaf3a;
+  border: none !important;
+  padding: 12px 32px !important;
+  cursor: pointer;
+  font-size: 16px;
   color: #fff;
   text-align: center;
   border: none !important;
@@ -1146,7 +1206,7 @@ body {
 }
 
 .about-us-image {
-  width: 100%;
+  width: 75%;
 }
 
 .technical_assesment_content {
@@ -1215,7 +1275,9 @@ body {
 .brdr-tp {
   border-top: 2px solid #ffffff;
 }
-
+.brdr-btm {
+  border-bottom: 2px solid black;
+}
 .line {
   background-color: #ffffff !important;
 }
@@ -1238,6 +1300,7 @@ body {
   padding: 9px 6px 9px 6px;
   font-size: 20px;
   width: 34px;
+  cursor: pointer;
   text-align: center;
   text-decoration: none;
   margin: 11px 4px;
@@ -1342,7 +1405,10 @@ footer {
     width: 100%;
     background: rgba(33, 35, 35, 0.9) !important;
   }
-
+  .allignment {
+    position: relative !important;
+    z-index: 1 !important;
+  }
   .company-contact {
     text-align: center;
     font-family: 'Tungsten-Light';
@@ -1374,7 +1440,7 @@ footer {
 
 @media (min-width: 1279px) {
   .container-fixed {
-    max-width: 1200px;
+    max-width: 1270px;
   }
 }
 

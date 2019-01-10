@@ -1438,9 +1438,9 @@ footer {
   }
 }
 
-@media (min-width: 1279px) {
+@media (min-width: 1260px) {
   .container-fixed {
-    max-width: 1270px;
+    max-width: 1240px !important;
   }
 }
 

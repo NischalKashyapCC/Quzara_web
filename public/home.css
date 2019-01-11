@@ -63,7 +63,7 @@ body {
 
 .social_info {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .dropdown-submenu {
@@ -174,7 +174,7 @@ body {
   border-color: #fcaf3a;
   border-radius: 38px;
   letter-spacing: 2px;
-  font-size: 26px;
+  font-size: 13px;
   font-weight: bold !important;
   text-transform: uppercase !important;
   transition: background-color 300ms ease 0ms, letter-spacing 300ms ease 0ms;
@@ -304,12 +304,14 @@ body {
 }
 .aboutus_quzara:before {
   position: absolute;
-
   top: 1.2em;
   height: 0;
   width: 150px;
   content: '';
   border-bottom: 2px solid black;
+}
+.different {
+  font-size: 40px !important;
 }
 .our_services {
   font-size: 40px !important;
@@ -344,6 +346,9 @@ body {
   transform: rotateZ(-90deg);
   /* right: -85px; */
   right: -61px;
+  border-bottom-right-radius: 38px !important;
+  border-bottom-left-radius: 38px !important;
+
   top: 60px;
   width: 176px;
   text-align: center;
@@ -422,9 +427,10 @@ body {
   position: fixed;
   transition: 0.3s;
   width: 400px;
+  border-bottom-right-radius: 38px !important;
+  border-top-right-radius: 38px !important;
   text-decoration: none;
   font-size: 24px;
-  /* font-weight: bold; */
   color: white;
   border-radius: 0 5px 5px 0;
   z-index: 12;
@@ -596,9 +602,9 @@ body {
   height: 100%;
   border: 0 !important;
 }
-.intelligence {
+/* .intelligence {
   letter-spacing: 4px;
-}
+} */
 .submain-card-f {
   height: 100%;
   background: #232323;
@@ -643,7 +649,7 @@ body {
 
 .card-text {
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .optiv-card {
@@ -652,7 +658,7 @@ body {
 
 .card-title {
   font-weight: bold;
-  font-size: 1.25rem !important;
+  font-size: 1.3rem !important;
   color: #fcaf3a;
   height: 48px;
 }
@@ -1118,7 +1124,7 @@ body {
 }
 
 .fs {
-  font-size: 38px !important;
+  font-size: 34px !important;
   font-weight: normal;
   color: #ffffff;
 }
@@ -1126,7 +1132,7 @@ body {
   color: #fcaf3a;
 }
 .dark-bg {
-  background-color: #dfdfdf;
+  background-color: #f7f7f7;
 }
 .brdr {
   border-top: 5px solid #fcaf3a;
@@ -1266,10 +1272,6 @@ body {
 .value_color {
   color: #fcaf3a;
   font-size: 1.25rem;
-}
-
-.value_content {
-  font-size: 0.9rem;
 }
 
 .btn-secondary :hover {

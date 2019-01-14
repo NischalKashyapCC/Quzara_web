@@ -36,9 +36,11 @@ body {
 
 .text-underline {
   cursor: pointer;
-  font-size: 24px;
+  font-size: 22px !important;
 }
-
+.side_nav_content {
+  font-size: 18px !important;
+}
 .underline {
   text-decoration: underline;
 }
@@ -63,7 +65,7 @@ body {
 
 .social_info {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .dropdown-submenu {
@@ -152,7 +154,9 @@ body {
 .Contact {
   color: #fcaf3a !important;
 }
-
+.font-color {
+  color: #ffffff;
+}
 .remove {
   border: none !important;
 }
@@ -932,7 +936,9 @@ body {
     font-size: 30px;
     left: -20px;
   }
-
+  .left-heading {
+    font-size: 1.4rem !important;
+  }
   #mySidenav a:hover {
     left: 0;
   }
@@ -951,6 +957,13 @@ body {
   }
   .media_logo {
     width: 194px !important;
+  }
+  .glow-button {
+    font-size: 14px;
+  }
+
+  .left-subheading {
+    font-size: 1.3rem !important;
   }
 }
 
@@ -1169,7 +1182,7 @@ body {
 .about-quzara {
   font-size: 18px;
   line-height: 1.5;
-  color: #000000;
+  /* color: #000000; */
 }
 .aboutus-btn {
   background-color: #fcaf3a;
@@ -1429,8 +1442,10 @@ footer {
   .vertical-text {
     position: absolute;
     transform: rotateZ(-90deg);
-    right: -25px;
-    top: 94px;
+    /* right: -25px; */
+    right: -108px;
+    /* top: 94px; */
+    top: 104px;
     padding: 0 !important;
   }
 }
@@ -1563,7 +1578,7 @@ footer {
 
 @media (max-width: 425px) {
   .left-heading {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
   .glow-button {

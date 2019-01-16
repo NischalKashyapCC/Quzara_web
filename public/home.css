@@ -36,7 +36,7 @@ body {
 
 .text-underline {
   cursor: pointer;
-  font-size: 22px !important;
+  font-size: 28px !important;
 }
 .side_nav_content {
   font-size: 18px !important;
@@ -212,15 +212,15 @@ body {
 .devsecops-result {
   font-size: 15px;
 }
-.devsecoops_security{
+.devsecoops_security {
   width: 100%;
 }
-.devsecops-bg{
+/* .devsecops-bg {
   background: #072747;
 }
-.smart-bg{
+.smart-bg {
   background: #22492b;
-}
+} */
 .glow-button:focus {
   outline: 0 !important;
 }
@@ -357,10 +357,9 @@ body {
   position: absolute;
   transform: rotateZ(-90deg);
   /* right: -85px; */
-  right: -61px;
+  right: -62px;
   border-bottom-right-radius: 38px !important;
   border-bottom-left-radius: 38px !important;
-
   top: 60px;
   width: 176px;
   text-align: center;

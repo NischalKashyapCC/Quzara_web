@@ -365,7 +365,10 @@ body {
   text-align: center;
   background-color: #fcaf3a;
 }
-
+.un-bold {
+  font-weight: 400 !important;
+  font-size: 43px !important;
+}
 #video-background {
   position: absolute;
   right: 0;

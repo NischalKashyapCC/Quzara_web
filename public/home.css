@@ -48,7 +48,9 @@ body {
 .menu {
   height: 4.5rem;
 }
-
+.devsecoops-image {
+  transform: scale(0.8);
+}
 .center {
   background: #242424 !important;
 }
@@ -207,12 +209,18 @@ body {
   transition: 0.5s;
 }
 
-/* .glow-button:hover {
-  padding-right: 44px;
-  padding-left: 28px;
-  opacity: 5;
-} */
-
+.devsecops-result {
+  font-size: 15px;
+}
+.devsecoops_security{
+  width: 100%;
+}
+.devsecops-bg{
+  background: #072747;
+}
+.smart-bg{
+  background: #22492b;
+}
 .glow-button:focus {
   outline: 0 !important;
 }

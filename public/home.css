@@ -44,7 +44,9 @@ body {
 .underline {
   text-decoration: underline;
 }
-
+.content-below-title {
+  font-size: 22px;
+}
 .menu {
   height: 4.5rem;
 }
@@ -213,7 +215,7 @@ body {
   font-size: 15px;
 }
 .devsecoops_security {
-  width: 100%;
+  width: 60%;
 }
 /* .devsecops-bg {
   background: #072747;
@@ -329,6 +331,9 @@ body {
   font-size: 40px !important;
   position: relative;
   line-height: 1.2em;
+}
+.technical-assessment {
+  font-size: 2.2rem;
 }
 .our_services:before {
   position: absolute;

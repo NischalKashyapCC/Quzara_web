@@ -320,7 +320,7 @@ body {
   position: absolute;
   top: 1.2em;
   height: 0;
-  width: 150px;
+  width: 90px;
   content: '';
   border-bottom: 2px solid black;
 }
@@ -363,8 +363,6 @@ body {
   transform: rotateZ(-90deg);
   /* right: -85px; */
   right: -62px;
-  border-bottom-right-radius: 38px !important;
-  border-bottom-left-radius: 38px !important;
   top: 60px;
   width: 176px;
   text-align: center;
@@ -385,7 +383,11 @@ body {
   z-index: -100;
   transform: translate(0%, 0%);
 }
-
+.title-font {
+  font-family: 'Tungsten-Light', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.2rem !important;
+}
 .content-overlay {
   position: relative;
   top: -50px;
@@ -446,8 +448,6 @@ body {
   position: fixed;
   transition: 0.3s;
   width: 400px;
-  border-bottom-right-radius: 38px !important;
-  border-top-right-radius: 38px !important;
   text-decoration: none;
   font-size: 24px;
   color: white;
@@ -1148,7 +1148,7 @@ body {
 }
 
 .caps {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .fs {
@@ -1180,7 +1180,7 @@ body {
 
 .image {
   /* border-top: 2px solid black; */
-  text-align: right;
+  text-align: center;
 }
 
 .content-border {
@@ -1293,9 +1293,9 @@ body {
   line-height: 40px;
 }
 
-.our-values {
+/* .our-values {
   padding-top: 5rem !important;
-}
+} */
 
 .value_color {
   color: #fcaf3a;
@@ -1533,7 +1533,7 @@ footer {
 .cybersecurity {
   color: #ffffff;
   font-family: 'Tungsten-Light', sans-serif;
-  font-size: 2.25em;
+  font-size: 2.25em !important;
   font-weight: bold;
   letter-spacing: 2px;
   z-index: 1;

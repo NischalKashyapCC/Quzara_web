@@ -30,7 +30,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+.navbar-nav li:hover>ul.dropdown-menu {
   display: block;
 }
 
@@ -38,21 +38,27 @@ body {
   cursor: pointer;
   font-size: 28px !important;
 }
+
 .side_nav_content {
   font-size: 18px !important;
 }
+
 .underline {
   text-decoration: underline;
 }
+
 .content-below-title {
   font-size: 22px;
 }
+
 .menu {
   height: 4.5rem;
 }
+
 .devsecoops-image {
   transform: scale(0.8);
 }
+
 .center {
   background: #242424 !important;
 }
@@ -76,12 +82,12 @@ body {
   position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu > li > a:hover:after {
+.dropdown-menu>li>a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
@@ -158,9 +164,11 @@ body {
 .Contact {
   color: #fcaf3a !important;
 }
+
 .font-color {
   color: #ffffff;
 }
+
 .remove {
   border: none !important;
 }
@@ -214,9 +222,11 @@ body {
 .devsecops-result {
   font-size: 15px;
 }
+
 .devsecoops_security {
   width: 60%;
 }
+
 /* .devsecops-bg {
   background: #072747;
 }
@@ -309,13 +319,16 @@ body {
   font-size: 0.9rem;
   color: #ffffff;
 }
+
 .aboutus_quzara {
   font-size: 40px !important;
 }
+
 .aboutus_quzara {
   position: relative;
   line-height: 1.2em;
 }
+
 .aboutus_quzara:before {
   position: absolute;
   top: 1.2em;
@@ -324,17 +337,21 @@ body {
   content: '';
   border-bottom: 2px solid black;
 }
+
 .different {
   font-size: 40px !important;
 }
+
 .our_services {
   font-size: 40px !important;
   position: relative;
   line-height: 1.2em;
 }
+
 .technical-assessment {
   font-size: 2.2rem;
 }
+
 .our_services:before {
   position: absolute;
 
@@ -344,10 +361,12 @@ body {
   content: '';
   border-bottom: 2px solid black;
 }
+
 .services_border {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
+
 .size {
   font-size: 0.9rem;
   color: #1a1818cc;
@@ -368,10 +387,12 @@ body {
   text-align: center;
   background-color: #fcaf3a;
 }
+
 .un-bold {
   font-weight: 400 !important;
   font-size: 43px !important;
 }
+
 #video-background {
   position: absolute;
   right: 0;
@@ -383,11 +404,13 @@ body {
   z-index: -100;
   transform: translate(0%, 0%);
 }
+
 .title-font {
   font-family: 'Tungsten-Light', sans-serif;
   letter-spacing: 2px;
   font-size: 2.2rem !important;
 }
+
 .content-overlay {
   position: relative;
   top: -50px;
@@ -455,7 +478,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a > div {
+#mySidenav a>div {
   padding: 15px;
 }
 
@@ -597,9 +620,11 @@ body {
   right: 40px;
   opacity: unset;
 }
+
 .content-space {
   padding-top: 80px;
 }
+
 .pindrop-notification__title {
   font-size: 24px;
 }
@@ -621,6 +646,7 @@ body {
   height: 100%;
   border: 0 !important;
 }
+
 /* .intelligence {
   letter-spacing: 4px;
 } */
@@ -951,9 +977,11 @@ body {
     font-size: 30px;
     left: -20px;
   }
+
   .left-heading {
     font-size: 1.4rem !important;
   }
+
   #mySidenav a:hover {
     left: 0;
   }
@@ -970,9 +998,11 @@ body {
     border-radius: 0 5px 5px 0;
     z-index: 12;
   }
+
   .media_logo {
     width: 194px !important;
   }
+
   .glow-button {
     font-size: 14px;
   }
@@ -1156,12 +1186,15 @@ body {
   font-weight: normal;
   color: #ffffff;
 }
+
 .orange_text {
   color: #fcaf3a;
 }
+
 .dark-bg {
   background-color: #f7f7f7;
 }
+
 .brdr {
   border-top: 5px solid #fcaf3a;
 }
@@ -1194,11 +1227,13 @@ body {
 .about-us-contents {
   margin-top: 130px !important;
 }
+
 .about-quzara {
   font-size: 18px;
   line-height: 1.5;
   /* color: #000000; */
 }
+
 .aboutus-btn {
   background-color: #fcaf3a;
   border: none !important;
@@ -1217,6 +1252,7 @@ body {
   position: relative;
   transition: 0.5s;
 }
+
 .targeted-btn {
   background-color: #fcaf3a;
   border: none !important;
@@ -1235,11 +1271,13 @@ body {
   position: relative;
   transition: 0.5s;
 }
+
 .btn-secondary:focus {
   outline: none;
   box-shadow: none;
   box-shadow: 0 2px 19px 6px rgba(237, 126, 0, 0.32);
 }
+
 .btn-secondary:hover {
   background-color: #fcaf3a;
 }
@@ -1310,9 +1348,11 @@ body {
 .brdr-tp {
   border-top: 2px solid #ffffff;
 }
+
 .brdr-btm {
   border-bottom: 2px solid black;
 }
+
 .line {
   background-color: #ffffff !important;
 }
@@ -1440,10 +1480,12 @@ footer {
     width: 100%;
     background: rgba(33, 35, 35, 0.9) !important;
   }
+
   .allignment {
     position: relative !important;
     z-index: 1 !important;
   }
+
   .company-contact {
     text-align: center;
     font-family: 'Tungsten-Light';
@@ -1814,28 +1856,60 @@ footer {
   color: #000000 !important;
 }
 
-.progress > svg {
+.progress>svg {
   width: 100%;
   display: block;
 }
 
-.progress > svg > path:first-child {
+.progress>svg>path:first-child {
   opacity: 0.1;
 }
 
-.progress > svg > path {
+.progress>svg>path {
   stroke: #ff6347;
 }
 
-#progress1 > svg > path {
+#progress1>svg>path {
   stroke: #00ff7f;
 }
 
-#progress2 > svg > path {
+#progress2>svg>path {
   stroke: #1e90ff;
 }
 
-#progress3 > svg > path {
+#progress3>svg>path {
   stroke: #f15a29;
   stroke-width: 10;
+}
+
+
+/* layout changes */
+.display-inline {
+  display: inline-block;
+}
+
+.title-border-btm {
+  height: 3px;
+  background-color: #fcaf3a;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.img-container {
+  height: 412px;
+  background-image: url('./technical_assesment_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.check-icon {
+  margin-right: 8px;
+}
+
+.bg-dark-bg {
+  background: #242424 !important;
+  color: #fff;
 }

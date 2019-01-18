@@ -55,9 +55,9 @@ body {
   height: 4.5rem;
 }
 
-.devsecoops-image {
+/* .devsecoops-image {
   transform: scale(0.8);
-}
+} */
 
 .center {
   background: #242424 !important;
@@ -1840,6 +1840,9 @@ footer {
 }
 
 /* Progress bars */
+.d-progress {
+  height: 300px !important;
+}
 
 .progress {
   width: 100%;
@@ -1863,6 +1866,10 @@ footer {
 
 .progress>svg>path:first-child {
   opacity: 0.1;
+}
+
+.d-progress>svg>path {
+  stroke: #fcaf3a !important;
 }
 
 .progress>svg>path {
@@ -1913,3 +1920,5 @@ footer {
   background: #242424 !important;
   color: #fff;
 }
+
+.dev-prog {}

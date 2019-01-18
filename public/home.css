@@ -55,9 +55,9 @@ body {
   height: 4.5rem;
 }
 
-.devsecoops-image {
+/* .devsecoops-image {
   transform: scale(0.8);
-}
+} */
 
 .center {
   background: #242424 !important;
@@ -1840,6 +1840,9 @@ footer {
 }
 
 /* Progress bars */
+.d-progress {
+  height: 300px !important;
+}
 
 .progress {
   width: 100%;
@@ -1865,7 +1868,15 @@ footer {
   opacity: 0.1;
 }
 
+<<<<<<< HEAD
 .progress > svg > path {
+=======
+.d-progress>svg>path {
+  stroke: #fcaf3a !important;
+}
+
+.progress>svg>path {
+>>>>>>> fd8201787719a37a05c998fce8017466a7df6135
   stroke: #ff6347;
 }
 
@@ -1921,3 +1932,8 @@ footer {
   background: #242424 !important;
   color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+.dev-prog {}
+>>>>>>> fd8201787719a37a05c998fce8017466a7df6135

@@ -30,7 +30,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover>ul.dropdown-menu {
+.navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
 
@@ -82,14 +82,27 @@ body {
   position: relative;
 }
 
-.dropdown-submenu>.dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu>li>a:hover:after {
+.dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
+}
+.media-box {
+  border: 2px solid red;
+  padding: 20px;
+}
+.Azure-card-title {
+  color: #000000;
+}
+.more {
+  text-decoration: underline;
+}
+.top-brdr {
+  border-top: 3px solid #d8d8d8;
 }
 
 .form-control {
@@ -319,11 +332,21 @@ body {
   font-size: 0.9rem;
   color: #ffffff;
 }
-
+.model {
+  border: 1px solid #fcaf3a;
+  border-radius: 20px;
+}
 .aboutus_quzara {
   font-size: 40px !important;
 }
-
+.technical-assessment-benefits {
+  display: flex !important;
+  justify-content: center !important;
+}
+.azure-cloud-benefits {
+  display: flex !important;
+  justify-content: center !important;
+}
 .aboutus_quzara {
   position: relative;
   line-height: 1.2em;
@@ -478,7 +501,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a>div {
+#mySidenav a > div {
   padding: 15px;
 }
 
@@ -1859,36 +1882,31 @@ footer {
   color: #000000 !important;
 }
 
-.progress>svg {
+.progress > svg {
   width: 100%;
   display: block;
 }
 
-.progress>svg>path:first-child {
+.progress > svg > path:first-child {
   opacity: 0.1;
 }
 
-.d-progress>svg>path {
-  stroke: #fcaf3a !important;
-}
-
-.progress>svg>path {
+.progress > svg > path {
   stroke: #ff6347;
 }
 
-#progress1>svg>path {
+#progress1 > svg > path {
   stroke: #00ff7f;
 }
 
-#progress2>svg>path {
+#progress2 > svg > path {
   stroke: #1e90ff;
 }
 
-#progress3>svg>path {
+#progress3 > svg > path {
   stroke: #f15a29;
   stroke-width: 10;
 }
-
 
 /* layout changes */
 .display-inline {
@@ -1911,6 +1929,15 @@ footer {
   background-size: cover;
   background-position: center;
 }
+.abt-img-container {
+  height: 500px;
+  background-image: url('./employee.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
 
 .check-icon {
   margin-right: 8px;
@@ -1921,4 +1948,5 @@ footer {
   color: #fff;
 }
 
-.dev-prog {}
+.dev-prog {
+}

@@ -30,7 +30,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+.navbar-nav li:hover>ul.dropdown-menu {
   display: block;
 }
 
@@ -82,25 +82,29 @@ body {
   position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
 }
 
-.dropdown-menu > li > a:hover:after {
+.dropdown-menu>li>a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
+
 .media-box {
   border: 2px solid red;
   padding: 20px;
 }
+
 .Azure-card-title {
   color: #000000;
 }
+
 .more {
   text-decoration: underline;
 }
+
 .top-brdr {
   border-top: 3px solid #d8d8d8;
 }
@@ -332,21 +336,26 @@ body {
   font-size: 0.9rem;
   color: #ffffff;
 }
+
 .model {
   border: 1px solid #fcaf3a;
   border-radius: 20px;
 }
+
 .aboutus_quzara {
   font-size: 40px !important;
 }
+
 .technical-assessment-benefits {
   display: flex !important;
   justify-content: center !important;
 }
+
 .azure-cloud-benefits {
   display: flex !important;
   justify-content: center !important;
 }
+
 .aboutus_quzara {
   position: relative;
   line-height: 1.2em;
@@ -501,7 +510,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a > div {
+#mySidenav a>div {
   padding: 15px;
 }
 
@@ -991,6 +1000,147 @@ body {
     float: left;
     clear: both;
     width: 144px;
+  }
+}
+
+/* //animations */
+
+.animatable {
+
+  /* initially hide animatable objects */
+  visibility: hidden;
+
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.animated.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  -moz-animation-name: bounceInLeft;
+  -o-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+.animated.animationDelay {
+  animation-delay: .4s;
+  -webkit-animation-delay: .4s;
+}
+
+.animated.animationDelayMed {
+  animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+}
+
+.animated.animationDelayLong {
+  animation-delay: 1.6s;
+  -webkit-animation-delay: 1.6s;
+}
+
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+
+  60% {
+    -webkit-transform: translateX(20px);
+  }
+
+  80% {
+    -webkit-transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-2000px);
+  }
+
+  60% {
+    -moz-transform: translateX(20px);
+  }
+
+  80% {
+    -moz-transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -o-transform: translateX(20px);
+  }
+
+  80% {
+    -o-transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+
+  60% {
+    transform: translateX(20px);
+  }
+
+  80% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -1882,28 +2032,28 @@ footer {
   color: #000000 !important;
 }
 
-.progress > svg {
+.progress>svg {
   width: 100%;
   display: block;
 }
 
-.progress > svg > path:first-child {
+.progress>svg>path:first-child {
   opacity: 0.1;
 }
 
-.progress > svg > path {
+.progress>svg>path {
   stroke: #ff6347;
 }
 
-#progress1 > svg > path {
+#progress1>svg>path {
   stroke: #00ff7f;
 }
 
-#progress2 > svg > path {
+#progress2>svg>path {
   stroke: #1e90ff;
 }
 
-#progress3 > svg > path {
+#progress3>svg>path {
   stroke: #f15a29;
   stroke-width: 10;
 }
@@ -1929,6 +2079,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 .abt-img-container {
   height: 500px;
   background-image: url('./employee.jpg');
@@ -1948,5 +2099,4 @@ footer {
   color: #fff;
 }
 
-.dev-prog {
-}
+.dev-prog {}

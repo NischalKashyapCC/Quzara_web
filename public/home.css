@@ -2017,7 +2017,15 @@ footer {
 
 /* Progress bars */
 .d-progress {
-  height: 300px !important;
+  height: 200px !important;
+}
+
+.d-progress .progressbar-text {
+  font-size: 68px;
+}
+
+.d-progress>svg>path {
+  stroke: #fcaf3a !important;
 }
 
 .progress {

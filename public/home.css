@@ -1837,17 +1837,22 @@ footer {
   }
 
   .glow-button {
-    font-size: 14px;
+    font-size: 12px;
+    padding: 15px 20px;
   }
 
   .left-subheading {
     font-size: 1.3rem !important;
   }
-
+  .company-description {
+    font-size: 1.3rem !important;
+  }
   .space {
     float: right;
   }
-
+  .cybersecurity {
+    font-size: 1.3rem !important;
+  }
   .network-centric {
     font-size: 1.3rem;
     letter-spacing: 3px;

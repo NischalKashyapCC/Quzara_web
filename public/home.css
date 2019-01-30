@@ -106,6 +106,15 @@ body {
   background-size: cover;
   background-position: center;
 }
+.application_security_1_image-img-container {
+  height: 412px;
+  background-image: url('./application_security_1_image.PNG');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
@@ -2117,7 +2126,15 @@ footer {
   background-size: cover;
   background-position: center;
 }
-
+.cloud_security_architecture_1_image-img-container {
+  height: 412px;
+  background-image: url('./cloud_security_architecture_1_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .abt-img-container {
   height: 500px;
   background-image: url('./employee.jpg');
@@ -2126,6 +2143,27 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 20%;
+}
+.cloud_security_check {
+  width: 70px !important;
+}
+.atom-img {
+  width: 20% !important;
+  transform: translateX(10%);
+  /* background-image: url('./atom.svg'); */
+}
+.fedramp_security_architecture_1_image-img-container {
+  height: 500px;
+  background-image: url('./fedramp_security_architecture_1_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+.endpoint-img {
+  width: 50% !important;
+  height: 100px;
 }
 .aws_cloud_img-container {
   height: 412px;

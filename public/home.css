@@ -2174,6 +2174,30 @@ footer {
   background-size: cover;
   background-position: center 50%;
 }
+.fisma_1_image-img-container {
+  height: 412px;
+  background-image: url('./fisma_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 35%;
+}
+.fisma_image_2_image-img-container {
+  height: 412px;
+  background-image: url('./fisma_image_2.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+.fedramp_documentation_image {
+  width: 100% !important;
+}
+.endpoint_image {
+  width: 50% !important;
+}
 .check-icon {
   margin-right: 8px;
 }

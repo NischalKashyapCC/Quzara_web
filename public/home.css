@@ -2192,11 +2192,73 @@ footer {
   background-size: cover;
   background-position: center 46%;
 }
+.cloud_security_monitoring {
+  height: 412px;
+  background-image: url('./cloud_security_image_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 26%;
+}
+.cloud_security_monitoring_lock {
+  height: 412px;
+  background-image: url('./cloud_security_lock_image_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+}
+.penetration-img-container {
+  height: 412px;
+  background-image: url('./penetration.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+.penetration_1-img-container {
+  height: 412px;
+  background-image: url('./penetration_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+.security_tooling-img-container {
+  height: 412px;
+  background-image: url('./security_tooling.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+.security-tooling {
+  width: 40%;
+}
 .fedramp_documentation_image {
   width: 100% !important;
 }
 .endpoint_image {
   width: 50% !important;
+}
+.ord-list {
+  font-size: 1.1em;
+  padding-left: 7%;
+  counter-reset: ordering;
+}
+::before {
+  font-size: 1.65em;
+  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  color: #27aae0;
+}
+.no-bullet {
+  margin-left: 0;
+  list-style: none;
 }
 .check-icon {
   margin-right: 8px;

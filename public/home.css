@@ -2237,6 +2237,33 @@ footer {
   background-size: cover;
   background-position: center 46%;
 }
+.managed_vulnerability_scanning-img-container {
+  height: 412px;
+  background-image: url('./managed_vulnerability_scanning_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+.healthcare-img-container {
+  height: 412px;
+  background-image: url('./healthcare.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+.vulnerability_management-img-container {
+  height: 412px;
+  background-image: url('./vulnerability_management.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
 .security-tooling {
   width: 40%;
 }

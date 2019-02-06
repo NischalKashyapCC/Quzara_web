@@ -126,7 +126,7 @@ body {
 }
 
 .Azure-card-title {
-  color: #000000;
+  color: #ffffff;
 }
 
 .more {
@@ -2189,8 +2189,11 @@ footer {
   width: 100%;
   display: block;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 40% !important;
   background-position: center 46%;
+}
+.fisma_title {
+  color: #fcaf3a;
 }
 .cloud_security_monitoring {
   height: 412px;
@@ -2255,6 +2258,15 @@ footer {
   background-size: cover;
   background-position: center 46%;
 }
+.security_program-img-container {
+  height: 412px;
+  background-image: url('./Security-Program-Strategy.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
 .vulnerability_management-img-container {
   height: 412px;
   background-image: url('./vulnerability_management.jpg');
@@ -2263,6 +2275,9 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 46%;
+}
+.vul-brdr {
+  border: 2px solid #f7f7f7 !important;
 }
 .security-tooling {
   width: 40%;

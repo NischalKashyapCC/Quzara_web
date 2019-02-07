@@ -36,7 +36,6 @@ body {
   margin-top: -10px;
 }
 
-
 .text-underline {
   cursor: pointer;
   font-size: 28px !important;
@@ -1960,7 +1959,6 @@ footer {
   margin: 0px auto;
 }
 
-/* 
 @media screen and (max-width: 490px) {
   #about {
     width: 40% !important;
@@ -2004,8 +2002,9 @@ footer {
   margin: 0 auto;
   float: none;
   display: table;
-  color: #FCAF3Ac9;
-} */
+  color: #fcaf3ac9;
+}
+*/
 
 /* client slider */
 
@@ -2255,6 +2254,11 @@ footer {
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+.fisma-bgimg {
+  background-image: url('./fisma_image.jpg');
+  width: 100%;
+  height: 100%;
 }
 .aws_cloud_img-container {
   height: 412px;

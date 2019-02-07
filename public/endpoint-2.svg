@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="155px" viewBox="0 0 134 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(0.000000, 1.000000)">
+            <g id="play-button" transform="translate(131.004518, 98.103168) rotate(41.000000) translate(-131.004518, -98.103168) translate(126.504518, 92.603168)" fill="#FCAF3A">
+                <path d="M8.22148347,5.51118196 L0.67071088,0.75821085 C0.583542001,0.702402882 0.508640893,0.69599647 0.44610713,0.738923941 C0.383573368,0.781828854 0.352346317,0.859111837 0.352346317,0.970727773 L0.352346317,10.450909 C0.352346317,10.5626152 0.383593283,10.6399658 0.44610713,10.6828933 C0.508640893,10.7257982 0.583542001,10.719482 0.67071088,10.6636064 L8.22148347,5.91061272 C8.308732,5.85471452 8.35234632,5.78803369 8.35234632,5.71084094 C8.35234632,5.63355796 8.30871209,5.56701248 8.22148347,5.51118196 Z" id="Path"></path>
+            </g>
+            <rect id="Rectangle" stroke="#FCAF3A" stroke-width="2" x="1" y="32" width="34" height="121"></rect>
+            <rect id="Rectangle-Copy" stroke="#FCAF3A" stroke-width="2" x="51" y="71" width="34" height="82"></rect>
+            <rect id="Rectangle-Copy-2" stroke="#FCAF3A" stroke-width="2" x="99" y="113" width="34" height="40"></rect>
+            <circle id="Oval" stroke="#FCAF3A" stroke-width="2" cx="20.5" cy="7.5" r="7.5"></circle>
+            <path d="M26.5,12.5 L128.5,96.5" id="Line" stroke="#FCAF3A" stroke-width="2" stroke-linecap="square" transform="translate(77.500000, 54.500000) rotate(180.000000) translate(-77.500000, -54.500000) "></path>
+        </g>
+    </g>
+</svg>

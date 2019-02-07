@@ -89,7 +89,35 @@ body {
 
 /* .dropdown-menu>li>a:hover:after  */
 .aws_card_image {
-  width: 50%;
+  width: 40%;
+}
+
+.aws_third_card_image {
+  width: 24%;
+}
+
+.security_model {
+  width: 75%;
+}
+
+.microsoft_azure_img-container {
+  height: 412px;
+  background-image: url('./microsoft_azure.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.application_security_1_image-img-container {
+  height: 412px;
+  background-image: url('./application_security_1_image.PNG');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .dropdown-menu>li>a:hover:after {
@@ -103,7 +131,7 @@ body {
 }
 
 .Azure-card-title {
-  color: #000000;
+  color: #ffffff;
 }
 
 .more {
@@ -1823,15 +1851,24 @@ footer {
   }
 
   .glow-button {
-    font-size: 14px;
+    font-size: 12px;
+    padding: 15px 20px;
   }
 
   .left-subheading {
     font-size: 1.3rem !important;
   }
 
+  .company-description {
+    font-size: 1.3rem !important;
+  }
+
   .space {
     float: right;
+  }
+
+  .cybersecurity {
+    font-size: 1.3rem !important;
   }
 
   .network-centric {
@@ -2099,6 +2136,16 @@ footer {
   background-position: center;
 }
 
+.cloud_security_architecture_1_image-img-container {
+  height: 412px;
+  background-image: url('./cloud_security_architecture_1_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .abt-img-container {
   height: 500px;
   background-image: url('./employee.jpg');
@@ -2107,6 +2154,269 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 20%;
+}
+
+.identify_image-img-container {
+  height: 500px;
+  background-image: url('./identify_and_access_management_1_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.cloud-security-img-container {
+  height: 500px;
+  background-image: url('./cloud_security_new_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.fedramp-img-container {
+  height: 500px;
+  background-image: url('./fedramp_training-image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.healthcare1-img-container {
+  height: 500px;
+  background-image: url('./health_services-img.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.endpoint-img-container {
+  height: 500px;
+  background-image: url('./endpoint_security-image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.right_arrow {
+  font-size: 20px;
+  color: #fcaf3a;
+}
+
+.arrow-pos {
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+
+.cloud_security_check {
+  width: 70px !important;
+}
+
+.atom-img {
+  width: 20% !important;
+  transform: translateX(10%);
+  /* background-image: url('./atom.svg'); */
+}
+
+.fedramp_security_architecture_1_image-img-container {
+  height: 500px;
+  background-image: url('./fedramp_security_architecture_1_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.endpoint-img {
+  width: 50% !important;
+  height: 100px;
+}
+
+.aws_cloud_img-container {
+  height: 412px;
+  background-image: url('./aws_cloud_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+}
+
+.fisma_1_image-img-container {
+  height: 412px;
+  background-image: url('./fisma_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 35%;
+}
+
+.fisma_image_2_image-img-container {
+  height: 412px;
+  background-image: url('./fisma_image_2.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 40% !important;
+  background-position: center 46%;
+}
+
+.fisma_title {
+  color: #fcaf3a;
+}
+
+.cloud_security_monitoring {
+  height: 412px;
+  background-image: url('./cloud_security_image_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 26%;
+}
+
+.application_security_new_1_image-img-container {
+  height: 412px;
+  background-image: url('./application_security_testing_new.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 86%;
+}
+
+.application_security_new_2_image-img-container {
+  height: 412px;
+  background-image: url('./application_security_testing_new_2.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 26%;
+}
+
+.cloud_security_monitoring_lock {
+  height: 412px;
+  background-image: url('./cloud_security_lock_image_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+}
+
+.penetration-img-container {
+  height: 412px;
+  background-image: url('./penetration.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+
+.penetration_1-img-container {
+  height: 412px;
+  background-image: url('./penetration_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+
+.security_tooling-img-container {
+  height: 412px;
+  background-image: url('./security_tooling.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+
+.managed_vulnerability_scanning-img-container {
+  height: 412px;
+  background-image: url('./managed_vulnerability_scanning_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+
+.healthcare-img-container {
+  height: 412px;
+  background-image: url('./healthcare.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+
+.security_program-img-container {
+  height: 412px;
+  background-image: url('./Security-Program-Strategy.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+
+.vulnerability_management-img-container {
+  height: 412px;
+  background-image: url('./vulnerability_management.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 46%;
+}
+
+.vul-brdr {
+  border: 2px solid #f7f7f7 !important;
+}
+
+.security-tooling {
+  width: 40%;
+}
+
+.fedramp_documentation_image {
+  width: 100% !important;
+}
+
+.endpoint_image {
+  width: 50% !important;
+}
+
+.ord-list {
+  font-size: 1.1em;
+  padding-left: 7%;
+  counter-reset: ordering;
+}
+
+::before {
+  font-size: 1.65em;
+  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  color: #27aae0;
+}
+
+.no-bullet {
+  margin-left: 0;
+  list-style: none;
 }
 
 .check-icon {
@@ -2151,4 +2461,8 @@ footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 21px;
   font-weight: 600;
+}
+
+.light-bg {
+  background: #ffffff;
 }

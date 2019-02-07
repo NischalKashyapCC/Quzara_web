@@ -30,7 +30,7 @@ body {
   background-color: #ffffff;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+.navbar-nav li:hover>ul.dropdown-menu {
   display: block;
   padding-top: 0;
   margin-top: -10px;
@@ -84,7 +84,7 @@ body {
   position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
 }
@@ -122,7 +122,7 @@ body {
   background-position: center;
 }
 
-.dropdown-menu > li > a:hover:after {
+.dropdown-menu>li>a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
 }
@@ -447,6 +447,7 @@ body {
 .navbar-nav .nav-link.active {
   color: #fcaf3a !important;
   font-weight: bold;
+  border-bottom: 3px solid #fcaf3a;
 }
 
 .vertical-text {
@@ -550,7 +551,7 @@ body {
   z-index: 12;
 }
 
-#mySidenav a > div {
+#mySidenav a>div {
   padding: 15px;
 }
 
@@ -2004,8 +2005,8 @@ footer {
   display: table;
   color: #fcaf3ac9;
 }
-*/
 
+*/
 /* client slider */
 
 .slick-slide {
@@ -2076,7 +2077,7 @@ footer {
   font-size: 68px;
 }
 
-.d-progress > svg > path {
+.d-progress>svg>path {
   stroke: #fcaf3a !important;
 }
 
@@ -2095,28 +2096,28 @@ footer {
   color: #000000 !important;
 }
 
-.progress > svg {
+.progress>svg {
   width: 100%;
   display: block;
 }
 
-.progress > svg > path:first-child {
+.progress>svg>path:first-child {
   opacity: 0.1;
 }
 
-.progress > svg > path {
+.progress>svg>path {
   stroke: #ff6347;
 }
 
-#progress1 > svg > path {
+#progress1>svg>path {
   stroke: #00ff7f;
 }
 
-#progress2 > svg > path {
+#progress2>svg>path {
   stroke: #1e90ff;
 }
 
-#progress3 > svg > path {
+#progress3>svg>path {
   stroke: #f15a29;
   stroke-width: 10;
 }
@@ -2248,6 +2249,7 @@ footer {
   width: 50% !important;
   height: 100px;
 }
+
 .bgimg {
   background-image: url('./penetration.jpg');
   width: 100%;
@@ -2255,11 +2257,13 @@ footer {
   -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
+
 .fisma-bgimg {
   background-image: url('./fisma_image.jpg');
   width: 100%;
   height: 100%;
 }
+
 .aws_cloud_img-container {
   height: 412px;
   background-image: url('./aws_cloud_image.jpg');
@@ -2446,8 +2450,7 @@ footer {
   color: #fff;
 }
 
-.dev-prog {
-}
+.dev-prog {}
 
 /* //new layout styling */
 .w-80 {
@@ -2484,6 +2487,7 @@ footer {
 .light-bg {
   background: #ffffff;
 }
+
 .title-color {
   color: #fcaf3a;
 }

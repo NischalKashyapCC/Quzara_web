@@ -32,7 +32,10 @@ body {
 
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
+  padding-top: 0;
+  margin-top: -10px;
 }
+
 
 .text-underline {
   cursor: pointer;
@@ -442,6 +445,11 @@ body {
   cursor: pointer;
 }
 
+.navbar-nav .nav-link.active {
+  color: #fcaf3a !important;
+  font-weight: bold;
+}
+
 .vertical-text {
   position: absolute;
   transform: rotateZ(-90deg);
@@ -553,7 +561,7 @@ body {
 
 #about {
   position: fixed;
-  bottom: 7rem;
+  bottom: 2rem;
   height: auto;
   z-index: 12;
   background-color: rgba(69, 67, 67, 0.9);

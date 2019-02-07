@@ -2144,6 +2144,15 @@ footer {
   background-size: cover;
   background-position: center 20%;
 }
+.identify_image-img-container{
+  height: 500px;
+  background-image: url('./identify_and_access_management_1_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
 .cloud_security_check {
   width: 70px !important;
 }
@@ -2198,6 +2207,24 @@ footer {
 .cloud_security_monitoring {
   height: 412px;
   background-image: url('./cloud_security_image_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 26%;
+}
+.application_security_new_1_image-img-container {
+  height: 412px;
+  background-image: url('./application_security_testing_new.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 86%;
+}
+.application_security_new_2_image-img-container {
+  height: 412px;
+  background-image: url('./application_security_testing_new_2.jpg');
   width: 100%;
   display: block;
   background-repeat: no-repeat;

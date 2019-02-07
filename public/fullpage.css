@@ -350,6 +350,7 @@ html.fp-enabled,
   border-left: 15vw solid transparent;
 }
 
+
 .polygon-2-right {
   position: relative;
   top: 17.5%;
@@ -578,4 +579,33 @@ html.fp-enabled,
 
 .form-brdr {
   padding: 20px !important;
+}
+
+.map-container {
+  height: 35vh;
+  background: red;
+  width: 100%;
+}
+
+#section5 .fp-tableCell {
+  position: relative;
+  top: 30px;
+}
+
+.find-us-at {
+  height: 20vh;
+  background: #FCAF3A
+}
+
+.drop-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -60px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }

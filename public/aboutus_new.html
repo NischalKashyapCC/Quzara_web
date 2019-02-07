@@ -289,7 +289,7 @@
             </section>
 
         </div>
-        
+
         <div class="section " id="section1">
             <div class="polygon-sections">
                 <div class="polygon-1">
@@ -482,7 +482,7 @@
             </div>
         </div>
         <div class="section" id="section4">
-            <div class="container py-4">
+            <div class="container">
                 <div class="row">
                     <div class="w-100 text-center">
 
@@ -518,8 +518,15 @@
                     <button type="button" class="new-aboutus-btn btn-secondary ">SUBMIT REQUEST</button>
                 </div>
             </div>
+            <div class="map-container" id="map">
 
+            </div>
 
+        </div>
+        <div class="section" id="section5">
+            <div class="find-us-at">
+                <div class="drop-icon"></div>
+            </div>
             <footer>
                 <div id="particles-js"></div>
                 <div class="particle-card  container-fliud particle-foot ">
@@ -597,8 +604,8 @@
                 </div>
 
             </footer>
+            <!-- </div> -->
         </div>
-    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -628,6 +635,29 @@
             //     "fifth page"
             // ]
         });
+    </script>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: -25.344,
+                lng: 131.036
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
     </script>
 
 </body>

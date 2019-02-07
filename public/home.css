@@ -2144,7 +2144,7 @@ footer {
   background-size: cover;
   background-position: center 20%;
 }
-.identify_image-img-container{
+.identify_image-img-container {
   height: 500px;
   background-image: url('./identify_and_access_management_1_image.jpg');
   width: 100%;
@@ -2152,6 +2152,51 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 20%;
+}
+.cloud-security-img-container {
+  height: 500px;
+  background-image: url('./cloud_security_new_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+.fedramp-img-container {
+  height: 500px;
+  background-image: url('./fedramp_training-image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+.healthcare1-img-container {
+  height: 500px;
+  background-image: url('./health_services-img.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+.endpoint-img-container {
+  height: 500px;
+  background-image: url('./endpoint_security-image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+}
+.right_arrow {
+  font-size: 20px;
+  color: #fcaf3a;
+}
+.arrow-pos {
+  left: 0;
+  right: 0;
+  bottom: 10px;
 }
 .cloud_security_check {
   width: 70px !important;

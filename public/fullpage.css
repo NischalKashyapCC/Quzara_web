@@ -352,11 +352,12 @@ html.fp-enabled,
 
 .polygon-2-right {
   position: relative;
-  top: -17.5%;
+  top: 17.5%;
   /* bottom: 0; */
   /* right: 0; */
   left: 0;
   /* width: 0%; */
+  z-index: 1;
   /* height: 0%; */
   border-top: 15vw solid transparent;
   border-right: 15vw solid transparent;
@@ -401,7 +402,7 @@ html.fp-enabled,
 
 .content-info-right {
   position: relative;
-  top: 25vh;
+  top: -35vh;
   left: 55vw;
 }
 

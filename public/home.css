@@ -2119,3 +2119,36 @@ footer {
 }
 
 .dev-prog {}
+
+
+/* //new layout styling */
+.w-80 {
+  width: 80%;
+}
+
+.new-logo {
+  width: 208px;
+}
+
+.new-about-us-particle {
+  height: 260px !important;
+}
+
+.heading-title {
+  font-family: 'Tungsten-Light', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.new.about-us-content {
+  transform: translate(-50%, -75%);
+}
+
+.heading-para {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+}

@@ -587,7 +587,25 @@ html.fp-enabled,
   width: 100%;
 }
 
+#section5 .fp-tableCell {
+  position: relative;
+  top: 30px;
+}
+
 .find-us-at {
   height: 20vh;
   background: #FCAF3A
+}
+
+.drop-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -60px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }

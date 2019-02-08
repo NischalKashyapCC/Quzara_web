@@ -84,6 +84,10 @@ body {
   position: relative;
 }
 
+.dropdown-submenu .dropdown-menu {
+  margin-top: 0 !important;
+}
+
 .dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
@@ -211,6 +215,7 @@ body {
 
 .dropdown-item {
   padding: 0.25rem 0.5rem 0.25rem 1rem !important;
+  text-transform: capitalize;
 }
 
 .Contact {
@@ -445,9 +450,15 @@ body {
 }
 
 .navbar-nav .nav-link.active {
-  color: #fcaf3a !important;
+  color: black !important;
   font-weight: bold;
-  border-bottom: 3px solid #fcaf3a;
+  border-bottom: 2px solid #fcaf3a;
+}
+
+.navbar-nav .dropdown-item:focus,
+.navbar-nav .dropdown-item:hover {
+  color: #fcaf3a;
+  font-weight: bold;
 }
 
 .vertical-text {

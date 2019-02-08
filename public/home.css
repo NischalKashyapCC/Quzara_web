@@ -447,12 +447,22 @@ body {
 .c-navbar .nav-item .nav-link:hover {
   color: black !important;
   cursor: pointer;
+  border-top: 2px solid #fcaf3a;
+  box-sizing: border-box;
+  padding-top: 10px !important;
+}
+
+.navbar-nav .nav-link {
+  padding: 12px 0 !important;
+  margin: 0 12px;
 }
 
 .navbar-nav .nav-link.active {
   color: black !important;
   font-weight: bold;
-  border-bottom: 2px solid #fcaf3a;
+  padding-top: 10px !important;
+  border-top: 2px solid #fcaf3a;
+  box-sizing: border-box;
 }
 
 .navbar-nav .dropdown-item:focus,

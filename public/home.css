@@ -629,6 +629,13 @@ ul.list-unstyled li {
   text-indent: -26px;
   margin-left: 26px;
   padding: 4px;
+  /* width: 110px;
+  margin: 0 auto;
+  white-space: nowrap; */
+}
+
+ul.list-unstyled li a {
+  color: #212529
 }
 
 /* container */

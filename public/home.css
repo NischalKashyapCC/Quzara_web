@@ -2277,7 +2277,33 @@ footer {
   background-size: cover;
   background-position: center 50%;
 }
-
+.compliance_services_image_1-img-container {
+  height: 412px;
+  background-image: url('./compliance_services_image_1.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+}
+.aws-img-container {
+  height: 412px;
+  background-image: url('./AWS_Partner_Logo.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 22%;
+  background-position: center 50%;
+}
+.compliance_services_image-img-container {
+  height: 412px;
+  background-image: url('./compliance_services_image.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+}
 .fisma_1_image-img-container {
   height: 412px;
   background-image: url('./fisma_image.jpg');

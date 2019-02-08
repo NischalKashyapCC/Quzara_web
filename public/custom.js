@@ -200,6 +200,12 @@ $('.progress').each(function (i) {
   });
 });
 
+//script for the data dropdown click the href
+$('#navbarText ul > li > .nav-link').click(function () {
+  window.location = $(this).attr('href');
+});
+
+
 //script for animation
 
 jQuery(function ($) {

@@ -276,6 +276,13 @@ body {
   transition: 0.5s;
 }
 
+.foot-head {
+  color: #fcaf3a;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
 .devsecops-result {
   font-size: 15px;
 }
@@ -662,7 +669,11 @@ ul.list-unstyled.ul-aws-step-style li {
   padding: 4px;
 }
 
+<<<<<<< HEAD
  ul.list-unstyled li a {
+=======
+ul.list-unstyled li a {
+>>>>>>> 9c41ac1509e90f1002a66e96b35fbd1c3d637575
   color: #212529;
 }
 

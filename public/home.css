@@ -667,7 +667,11 @@ ul.list-unstyled.ul-aws-step-style li {
   margin-left: 32px;
   padding: 4px;
 }
-
+.li-ul-aws-step-style li{
+  text-indent: -10px !important;
+  margin-left: 32px;
+  padding: 4px;
+}
 ul.list-unstyled li a {
   color: #212529;
 }

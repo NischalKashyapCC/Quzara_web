@@ -662,7 +662,11 @@ ul.list-unstyled.ul-aws-step-style li {
   padding: 4px;
 }
 
+<<<<<<< HEAD
 ul. ul.list-unstyled li a {
+=======
+ul.list-unstyled li a {
+>>>>>>> 81e84a8c3932b36699852bd1d6849ca6a5a56e0c
   color: #212529;
 }
 

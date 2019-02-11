@@ -2246,7 +2246,9 @@ footer {
   background-size: cover;
   background-position: center 20%;
 }
-
+.fedramp2 {
+  width: 100% !important;
+}
 .healthcare1-img-container {
   height: 500px;
   background-image: url('./health_services-img.jpg');

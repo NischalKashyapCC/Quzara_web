@@ -283,16 +283,20 @@ body {
 
 }
 
-.cir-spac {
-  padding: 6px;
-}
-
 .devsecops-result {
   font-size: 15px;
 }
 
 .devsecoops_security {
   width: 60%;
+}
+
+.cir-spac {
+  padding-right: 6px;
+}
+
+.list-unstyled.display-inline-block.offset-md-1 li a {
+  color: #fff !important;
 }
 
 /* .devsecops-bg {
@@ -673,11 +677,7 @@ ul.list-unstyled.ul-aws-step-style li {
   padding: 4px;
 }
 
-<<<<<<< HEAD
- ul.list-unstyled li a {
-=======
 ul.list-unstyled li a {
->>>>>>> 9c41ac1509e90f1002a66e96b35fbd1c3d637575
   color: #212529;
 }
 
@@ -2368,7 +2368,7 @@ footer {
   width: 100%;
   display: block;
   background-repeat: no-repeat;
-  background-size: 22%;
+  background-size: 18%;
   background-position: center 50%;
 }
 

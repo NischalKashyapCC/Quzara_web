@@ -2211,7 +2211,24 @@ footer {
   background-size: cover;
   background-position: center;
 }
-
+.ESA-img-container{
+  height: 412px;
+  background-image: url('./Enterprise\ Security\ Architecture_Image1.png');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mdr-img-container{
+  height: 412px;
+  background-image: url('./mdr.jpg');
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .cloud_security_architecture_1_image-img-container {
   height: 412px;
   background-image: url('./cloud_security_architecture_1_image.jpg');

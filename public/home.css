@@ -283,6 +283,10 @@ body {
 
 }
 
+.cir-spac {
+  padding: 6px;
+}
+
 .devsecops-result {
   font-size: 15px;
 }

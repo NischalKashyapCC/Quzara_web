@@ -2159,6 +2159,10 @@ footer {
   display: inline-block;
 }
 
+.display-inline-block {
+  display: inline-block;
+}
+
 .title-border-btm {
   height: 3px;
   background-color: #fcaf3a;

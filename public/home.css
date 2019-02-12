@@ -585,6 +585,7 @@ body {
   border-radius: 0 5px 5px 0;
   z-index: 12;
 }
+
 #mySidenavtwo a {
   left: -243px;
   position: fixed;
@@ -596,13 +597,16 @@ body {
   border-radius: 0 5px 5px 0;
   z-index: 12;
 }
+
 .side_nav_content_two {
   font-size: 14px !important;
 }
+
 .text-underline_two {
   cursor: pointer;
   font-size: 22px !important;
 }
+
 .side_nav_content_three {
   font-size: 12px !important;
 }
@@ -617,13 +621,15 @@ body {
   background-color: #fcaf3a;
 }
 
-.text-underline-three {
+.text-underline_three {
   cursor: pointer;
   font-size: 20px !important;
 }
+
 #mySidenavtwo a > div {
   padding: 15px;
 }
+
 #mySidenavtwo a:hover {
   left: 0;
 }
@@ -639,16 +645,20 @@ body {
   border-radius: 0 5px 5px 0;
   z-index: 12;
 }
+
 .side_nav_content_three {
   font-size: 13px !important;
 }
+
 .text-underline_three {
   cursor: pointer;
   font-size: 19px !important;
 }
+
 #mySidenavthree a > div {
   padding: 15px;
 }
+
 #mySidenavthree a:hover {
   left: 0;
 }
@@ -669,6 +679,7 @@ body {
   background-color: rgba(69, 67, 67, 0.9);
   line-height: 26px !important;
 }
+
 #abouttwo {
   position: fixed;
   bottom: 15rem;
@@ -677,6 +688,7 @@ body {
   background-color: rgba(69, 67, 67, 0.9);
   line-height: 26px !important;
 }
+
 #aboutthree {
   position: fixed;
   bottom: 30rem;
@@ -685,6 +697,7 @@ body {
   background-color: rgba(69, 67, 67, 0.9);
   line-height: 26px !important;
 }
+
 .css-typing {
   width: 676px;
   margin: 0 auto;
@@ -757,6 +770,7 @@ ul.list-unstyled.ul-aws-step-style li {
   margin-left: 32px;
   padding: 4px;
 }
+
 .ul-aws-step-style-penetration li {
   text-indent: -32px !important;
   margin-left: 32px;
@@ -768,19 +782,23 @@ ul.list-unstyled.ul-aws-step-style li {
   margin-left: 32px;
   padding: 4px;
 }
+
 ul.tech-asses-style li {
   text-indent: -26px !important;
   margin-left: 26px !important;
   padding: 4px !important;
 }
+
 .splunk-card {
   max-height: 80px;
 }
+
 ul.tech-asses-style-deliverable li {
   text-indent: -28px !important;
   margin-left: 26px !important;
   padding: 4px !important;
 }
+
 ul.list-unstyled li a {
   color: #212529;
 }
@@ -2320,6 +2338,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 .ESA-img-container {
   height: 412px;
   background-image: url('./Enterprise\ Security\ Architecture_Image1.png');
@@ -2329,6 +2348,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 .mdr-img-container {
   height: 412px;
   background-image: url('./mdr.jpg');
@@ -2338,6 +2358,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 .cloud_security_architecture_1_image-img-container {
   height: 412px;
   background-image: url('./cloud_security_architecture_1_image.jpg');
@@ -2720,4 +2741,21 @@ footer {
 
 .title-color {
   color: #fcaf3a;
+}
+
+.nav-brd {
+  background: transparent;
+}
+
+.nav-brd a {
+  color: #fcaf3a;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  line-height: 1;
+}
+
+.pos-tp-6 {
+  position: relative;
+  top: -6px;
 }

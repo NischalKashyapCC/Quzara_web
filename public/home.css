@@ -604,11 +604,22 @@ body {
   font-size: 22px !important;
 }
 .side_nav_content_three {
-  font-size: 14px !important;
+  font-size: 12px !important;
 }
-.text-underline_three {
+.vertical-text-three {
+  position: absolute;
+  transform: rotateZ(-90deg);
+  /* right: -85px; */
+  right: -50px;
+  top: 51px;
+  width: 159px;
+  text-align: center;
+  background-color: #fcaf3a;
+}
+
+.text-underline-three {
   cursor: pointer;
-  font-size: 22px !important;
+  font-size: 20px !important;
 }
 #mySidenavtwo a > div {
   padding: 15px;
@@ -621,19 +632,19 @@ body {
   left: -243px;
   position: fixed;
   transition: 0.3s;
-  width: 300px;
+  width: 288px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 19px;
   color: white;
   border-radius: 0 5px 5px 0;
   z-index: 12;
 }
 .side_nav_content_three {
-  font-size: 14px !important;
+  font-size: 13px !important;
 }
 .text-underline_three {
   cursor: pointer;
-  font-size: 22px !important;
+  font-size: 19px !important;
 }
 #mySidenavthree a > div {
   padding: 15px;

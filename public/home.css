@@ -1854,7 +1854,13 @@ ul.list-unstyled li a {
 .particle-card {
   background-color: transparent;
 }
-
+.max-card-h {
+  font-weight: bold;
+  font-size: 1.3rem !important;
+  color: #fcaf3a;
+  /* height: 48px; */
+  height: 80px !important;
+}
 .img-pos {
   max-width: 60%;
   max-height: 100%;

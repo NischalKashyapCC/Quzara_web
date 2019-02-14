@@ -1861,6 +1861,13 @@ ul.list-unstyled li a {
   /* height: 48px; */
   height: 80px !important;
 }
+/* .form-control input[type='number']:-moz-placeholder {
+  color: black;
+}
+
+.form-control input[type='number'] {
+  color: black;
+} */
 .img-pos {
   max-width: 60%;
   max-height: 100%;
